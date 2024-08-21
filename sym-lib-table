@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "qris_iot")(type "KiCad")(uri "${KIPRJMOD}/library/qris_iot.kicad_sym")(options "")(descr ""))
+)
