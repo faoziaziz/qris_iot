@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 106.68 34.29)
-		(size 27.94 12.7)
+		(at 106.68 33.02)
+		(size 30.48 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +18,7 @@
 		)
 		(uuid "0c446b05-2ff4-4319-859d-c1e217bf307a")
 		(property "Sheetname" "Power Supply"
-			(at 106.68 33.5784 0)
+			(at 106.68 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,8 +44,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 34.29)
-		(size 22.86 12.7)
+		(at 139.7 33.02)
+		(size 25.4 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,7 +56,7 @@
 		)
 		(uuid "3a49048d-1b84-466c-a1d5-4c6dc1ec4d2e")
 		(property "Sheetname" "Memory"
-			(at 139.7 33.5784 0)
+			(at 139.7 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,8 +82,46 @@
 		)
 	)
 	(sheet
-		(at 138.43 54.61)
-		(size 21.59 8.89)
+		(at 176.53 53.34)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "607a2ba6-9f99-4be8-b5e3-b41afcfb962b")
+		(property "Sheetname" "batere"
+			(at 176.53 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "batere.kicad_sch"
+			(at 176.53 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "qris_iot"
+				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 53.34)
+		(size 22.86 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -94,7 +132,7 @@
 		)
 		(uuid "bc1bc942-217a-4c88-8a59-99e6984774bc")
 		(property "Sheetname" "JTAG"
-			(at 138.43 53.8984 0)
+			(at 138.43 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,8 +158,46 @@
 		)
 	)
 	(sheet
-		(at 138.43 93.98)
-		(size 24.13 13.97)
+		(at 199.39 86.36)
+		(size 33.02 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3ebd24a-4ab3-495d-9a68-320b62836308")
+		(property "Sheetname" "servo"
+			(at 199.39 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo.kicad_sch"
+			(at 199.39 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "qris_iot"
+				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 88.9)
+		(size 24.13 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -132,7 +208,7 @@
 		)
 		(uuid "c4c320b1-345f-4a0c-9cd9-2a1d41957a84")
 		(property "Sheetname" "quectell"
-			(at 138.43 93.2684 0)
+			(at 153.67 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "quectell.kicad_sch"
-			(at 138.43 108.5346 0)
+			(at 153.67 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,8 +234,8 @@
 		)
 	)
 	(sheet
-		(at 138.43 71.12)
-		(size 25.4 12.7)
+		(at 125.73 72.39)
+		(size 21.59 8.89)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -170,7 +246,7 @@
 		)
 		(uuid "d08d1557-25ee-4732-8348-3128948f98fe")
 		(property "Sheetname" "LCD"
-			(at 138.43 70.4084 0)
+			(at 125.73 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,7 +255,7 @@
 			)
 		)
 		(property "Sheetfile" "LCD.kicad_sch"
-			(at 138.43 84.4046 0)
+			(at 125.73 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,8 +272,46 @@
 		)
 	)
 	(sheet
-		(at 106.68 54.61)
-		(size 27.94 8.89)
+		(at 114.3 93.98)
+		(size 30.48 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0609752-8e54-478c-9e12-ece1efd64546")
+		(property "Sheetname" "gnss_quectell"
+			(at 114.3 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gnss_quectel.kicad_sch"
+			(at 114.3 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "qris_iot"
+				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 53.34)
+		(size 30.48 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -208,7 +322,7 @@
 		)
 		(uuid "e341b5a8-5316-4d5d-b7d7-b45804f43f64")
 		(property "Sheetname" "MIMXRT1010"
-			(at 106.68 53.8984 0)
+			(at 106.68 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,44 +343,6 @@
 			(project "qris_iot"
 				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 106.68 69.85)
-		(size 25.4 15.24)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fb66fc3d-5a92-4d59-b8de-17cec314448c")
-		(property "Sheetname" "Uarts"
-			(at 106.68 69.1384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "uarts.kicad_sch"
-			(at 106.68 85.6746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "qris_iot"
-				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2"
-					(page "7")
 				)
 			)
 		)

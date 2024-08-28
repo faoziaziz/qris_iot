@@ -408,12 +408,20 @@
       "LCD"
     ],
     [
-      "fb66fc3d-5a92-4d59-b8de-17cec314448c",
-      "Uarts"
-    ],
-    [
       "c4c320b1-345f-4a0c-9cd9-2a1d41957a84",
       "quectell"
+    ],
+    [
+      "e0609752-8e54-478c-9e12-ece1efd64546",
+      "gnss_quectell"
+    ],
+    [
+      "c3ebd24a-4ab3-495d-9a68-320b62836308",
+      "servo"
+    ],
+    [
+      "607a2ba6-9f99-4be8-b5e3-b41afcfb962b",
+      "batere"
     ]
   ],
   "text_variables": {}
