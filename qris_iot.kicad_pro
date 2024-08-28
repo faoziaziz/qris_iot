@@ -422,6 +422,14 @@
     [
       "607a2ba6-9f99-4be8-b5e3-b41afcfb962b",
       "batere"
+    ],
+    [
+      "46e46a12-b061-48fb-9225-3d8e4465a4b0",
+      "printer"
+    ],
+    [
+      "6da800c5-b029-4710-b0da-d69ee516648b",
+      "keypad"
     ]
   ],
   "text_variables": {}

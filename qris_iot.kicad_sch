@@ -82,6 +82,44 @@
 		)
 	)
 	(sheet
+		(at 218.44 36.83)
+		(size 22.86 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "46e46a12-b061-48fb-9225-3d8e4465a4b0")
+		(property "Sheetname" "printer"
+			(at 218.44 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "printer.kicad_sch"
+			(at 218.44 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "qris_iot"
+				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 176.53 53.34)
 		(size 27.94 17.78)
 		(fields_autoplaced yes)
@@ -115,6 +153,44 @@
 			(project "qris_iot"
 				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 120.65)
+		(size 27.94 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6da800c5-b029-4710-b0da-d69ee516648b")
+		(property "Sheetname" "keypad"
+			(at 184.15 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keypad.kicad_sch"
+			(at 184.15 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "qris_iot"
+				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2"
+					(page "12")
 				)
 			)
 		)
