@@ -3306,7 +3306,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "fecf70a2-2216-4229-93c3-567be7970938")
+			(uuid "fecf70a2-2216-4229-93c3-567be7970939")
 		)
 		(pin "2"
 			(uuid "36f5e2dc-314d-4348-bafa-7536f8148c8b")
@@ -3315,7 +3315,7 @@
 			(uuid "103bc750-8eb4-42de-887d-1ce3c632e506")
 		)
 		(pin "3"
-			(uuid "2f7bbebf-858d-4e47-9159-593f56598126")
+			(uuid "2f7bbebf-858d-4e47-9159-593f56598127")
 		)
 		(instances
 			(project ""
@@ -3447,7 +3447,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "fecf70a2-2216-4229-93c3-567be7970938")
+			(uuid "fecf70a2-2216-4229-93c3-567be797093a")
 		)
 		(pin "2"
 			(uuid "63c8623e-4319-4c3b-a75e-d1a57d10a5fc")
@@ -3456,7 +3456,7 @@
 			(uuid "17d24bc6-a498-4554-b3a7-4566e6f9cdcd")
 		)
 		(pin "3"
-			(uuid "2f7bbebf-858d-4e47-9159-593f56598126")
+			(uuid "2f7bbebf-858d-4e47-9159-593f56598128")
 		)
 		(instances
 			(project "qris_iot"

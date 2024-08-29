@@ -827,6 +827,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 54.61) (xy 181.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a29a6e1-59a2-4ed2-ab46-c45ba1e39032")
+	)
+	(wire
+		(pts
 			(xy 162.56 46.99) (xy 213.36 46.99)
 		)
 		(stroke
@@ -915,6 +925,17 @@
 			(justify left bottom)
 		)
 		(uuid "261127b0-0e05-4af6-a590-411a47fec6d3")
+	)
+	(label "NET_STATUS"
+		(at 181.61 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30779815-a7b5-4729-b9f4-5748098d7cc5")
 	)
 	(label "LPUART2_TXD_ALT2"
 		(at 52.07 72.39 0)
