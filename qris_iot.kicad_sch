@@ -120,8 +120,8 @@
 		)
 	)
 	(sheet
-		(at 176.53 53.34)
-		(size 27.94 17.78)
+		(at 177.8 55.88)
+		(size 25.4 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -130,9 +130,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "607a2ba6-9f99-4be8-b5e3-b41afcfb962b")
-		(property "Sheetname" "batere"
-			(at 176.53 52.6284 0)
+		(uuid "58579155-fb6f-4e8f-815b-ef29eb609da0")
+		(property "Sheetname" "battery"
+			(at 177.8 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,8 +140,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "batere.kicad_sch"
-			(at 176.53 71.7046 0)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 177.8 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,7 +152,7 @@
 		(instances
 			(project "qris_iot"
 				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2"
-					(page "10")
+					(page "13")
 				)
 			)
 		)
@@ -191,6 +191,44 @@
 			(project "qris_iot"
 				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2"
 					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 129.54)
+		(size 34.29 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa59cde8-20ea-43dd-b95c-fd860bb29632")
+		(property "Sheetname" "PMIC"
+			(at 129.54 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMIC.kicad_sch"
+			(at 129.54 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "qris_iot"
+				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2"
+					(page "13")
 				)
 			)
 		)
