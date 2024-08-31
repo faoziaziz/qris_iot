@@ -787,16 +787,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 64.77) (xy 116.84 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06129d45-4d67-4527-83a8-d55fa63bfc7e")
-	)
-	(wire
-		(pts
 			(xy 52.07 74.93) (xy 116.84 74.93)
 		)
 		(stroke
@@ -804,6 +794,16 @@
 			(type default)
 		)
 		(uuid "0a287c2f-5b84-4870-8331-07bb47350bb7")
+	)
+	(wire
+		(pts
+			(xy 52.07 64.77) (xy 116.84 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0feb82-5d59-481d-abd0-600d988379f0")
 	)
 	(wire
 		(pts
@@ -915,7 +915,7 @@
 		)
 		(uuid "009fcd91-c4f7-4ac2-905f-f3cd0053a9e1")
 	)
-	(label "LPUART1_RXD_ALT2"
+	(label "LPUART1_TXD_ALT2"
 		(at 52.07 67.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -924,7 +924,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "261127b0-0e05-4af6-a590-411a47fec6d3")
+		(uuid "0266c7d0-3341-4d44-ba2e-23e4667aafef")
 	)
 	(label "NET_STATUS"
 		(at 181.61 54.61 180)
@@ -958,6 +958,17 @@
 			(justify left bottom)
 		)
 		(uuid "36d6de2e-2dc6-4520-89cd-53da561879b7")
+	)
+	(label "LPUART1_RXD_ALT2"
+		(at 52.07 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37fae255-f0a3-457c-b290-4ce1e5f8dbc5")
 	)
 	(label "LPI2C2_SDA"
 		(at 80.01 85.09 0)
@@ -1035,17 +1046,6 @@
 			(justify left bottom)
 		)
 		(uuid "97c0db3e-226e-4507-bb59-ec94ef6da13e")
-	)
-	(label "LPUART1_TXD_ALT2"
-		(at 52.07 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de80c7da-6e9c-4ef5-ad4b-d19a139fd641")
 	)
 	(label "I2C_SDA_QTL"
 		(at 99.06 85.09 0)
