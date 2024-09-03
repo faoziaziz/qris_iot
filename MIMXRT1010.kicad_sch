@@ -3458,6 +3458,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 90.17) (xy 214.63 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d3551cf-2aa2-40ef-ad5b-cdb8f6900fc1")
+	)
+	(wire
+		(pts
 			(xy 85.09 62.23) (xy 76.2 62.23)
 		)
 		(stroke
@@ -3898,6 +3908,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 135.89) (xy 231.14 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93903ac9-f311-42a3-bd2c-a854a3588180")
+	)
+	(wire
+		(pts
 			(xy 63.5 149.86) (xy 69.85 149.86)
 		)
 		(stroke
@@ -4315,6 +4335,16 @@
 			(type default)
 		)
 		(uuid "cdad373f-ed8a-44b3-8a41-4d545f13f11b")
+	)
+	(wire
+		(pts
+			(xy 212.09 115.57) (xy 222.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefb6335-71fc-4ddb-98b2-1178cb6a2252")
 	)
 	(wire
 		(pts
@@ -4840,6 +4870,39 @@
 			(justify left bottom)
 		)
 		(uuid "1964015c-ba96-45af-9df9-0fd7588ccdfa")
+	)
+	(label "ADD_EL1"
+		(at 214.63 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2057a2b5-d0ac-4cb3-b5ae-8556083b2b00")
+	)
+	(label "ADD_EL2"
+		(at 222.25 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22dbcfea-85bc-4887-933a-547af6eecc8f")
+	)
+	(label "ADD_EL3"
+		(at 231.14 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "266d5dd3-0dc6-4302-9a25-fc82aeea0854")
 	)
 	(label "VDD_HIGH_IN_MCU"
 		(at 62.23 175.26 0)
