@@ -987,8 +987,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
+			(property "Reference" "U10"
+				(at 1.524 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -996,14 +996,14 @@
 				)
 			)
 			(property "Value" "MAX17320"
-				(at 0.254 -2.032 0)
+				(at 1.27 -0.762 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:21-0139I_T2444-4_MXM"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -1023,6 +1023,24 @@
 			)
 			(property "Description" ""
 				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigikeyPartNumber" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "MAX17320G20+T"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1343,6 +1361,24 @@
 						)
 					)
 					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 16.51 270)
+					(length 2.54)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4309,7 +4345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 134.62 0)
 			(effects
 				(font
@@ -4337,6 +4373,15 @@
 			)
 		)
 		(property "DigikeyPartNumber" ""
+			(at 99.06 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "GRM155R61A474KE15D"
 			(at 99.06 130.81 0)
 			(effects
 				(font
@@ -4840,7 +4885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.2652 134.62 0)
 			(effects
 				(font
@@ -4868,6 +4913,15 @@
 			)
 		)
 		(property "DigikeyPartNumber" ""
+			(at 114.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "GRM155R61A474KE15D"
 			(at 114.3 130.81 0)
 			(effects
 				(font
@@ -6024,7 +6078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:21-0139I_T2444-4_MXM"
 			(at 100.33 92.71 0)
 			(effects
 				(font
@@ -6141,6 +6195,9 @@
 		(pin "15"
 			(uuid "d3d5f6f4-5c48-4862-8397-fc40df1f2384")
 		)
+		(pin "25"
+			(uuid "05a1c2f4-67c1-4977-8e13-b6cdfb34bf11")
+		)
 		(instances
 			(project ""
 				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2/58579155-fb6f-4e8f-815b-ef29eb609da0"
@@ -6177,7 +6234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 83.5152 143.51 0)
 			(effects
 				(font
@@ -6205,6 +6262,15 @@
 			)
 		)
 		(property "DigikeyPartNumber" ""
+			(at 82.55 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "GRM155R61A474KE15D"
 			(at 82.55 139.7 0)
 			(effects
 				(font

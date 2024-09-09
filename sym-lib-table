@@ -7,4 +7,5 @@
   (lib (name "2024-08-29_01-39-53")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/2024-08-29_01-39-53.kicad_sym")(options "")(descr ""))
   (lib (name "2024-08-29_09-43-10")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/2024-08-29_09-43-10.kicad_sym")(options "")(descr ""))
   (lib (name "2024-09-09_08-02-59")(type "KiCad")(uri "${KIPRJMOD}/library/AT25SF128A_SHB_T/KiCADv6/2024-09-09_08-02-59.kicad_sym")(options "")(descr ""))
+  (lib (name "ul_MAX17320G20-T")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/ul_MAX17320G20-T.kicad_sym")(options "")(descr ""))
 )

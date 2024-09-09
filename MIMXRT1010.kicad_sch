@@ -7333,7 +7333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 57.15 125.73 0)
 			(effects
 				(font
@@ -8805,7 +8805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 76.2 87.63 0)
 			(effects
 				(font
