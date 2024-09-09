@@ -491,6 +491,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPartNumber" ""
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ceff7b9b-5f46-42ad-96a8-17d949031db0")
 		)

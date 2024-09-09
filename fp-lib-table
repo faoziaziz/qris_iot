@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library")(options "")(descr ""))
+  (lib (name "KiCADv6")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6")(options "")(descr ""))
+  (lib (name "AT25SF128A_SHB_T")(type "KiCad")(uri "${KIPRJMOD}/library/AT25SF128A_SHB_T/KiCADv6/footprints.pretty")(options "")(descr ""))
+)

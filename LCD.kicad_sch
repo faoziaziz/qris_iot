@@ -1609,6 +1609,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPartNumber" ""
+			(at 196.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cac5d163-46c7-416e-bd4c-c22868eb583a")
 		)
@@ -1643,7 +1652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7UF"
 			(at 142.24 35.5599 0)
 			(effects
 				(font
@@ -1652,7 +1661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.3952 38.1 0)
 			(effects
 				(font
@@ -1671,6 +1680,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 138.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C1005X5R0J475M050BC "
 			(at 138.43 34.29 0)
 			(effects
 				(font
@@ -1852,7 +1879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 184.404 58.674 90)
 			(effects
 				(font
@@ -1871,6 +1898,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 184.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 184.15 59.69 0)
 			(effects
 				(font
@@ -1940,6 +1976,15 @@
 		)
 		(property "Description" "Dari kingway"
 			(at 36.402 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 39.37 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

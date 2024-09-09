@@ -2287,7 +2287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 130.556 90.424 90)
 			(effects
 				(font
@@ -2306,6 +2306,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 129.54 90.17 0)
 			(effects
 				(font
@@ -2449,6 +2458,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPartNumber" ""
+			(at 161.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "77b144ee-8ffa-4e39-adc6-6ea215b7fdf0")
 		)
@@ -2492,7 +2510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 149.606 90.424 90)
 			(effects
 				(font
@@ -2511,6 +2529,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 148.59 90.17 0)
 			(effects
 				(font
@@ -2627,7 +2654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.42 72.39 0)
 			(effects
 				(font
@@ -2660,6 +2687,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CC0402KRX5R6BB104"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2704,7 +2749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 57.15 60.96 0)
 			(effects
 				(font
@@ -2737,6 +2782,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 57.15 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CC0402KRX5R6BB104"
+			(at 57.15 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2801,6 +2864,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 176.53 97.79 0)
 			(effects
 				(font
@@ -2946,6 +3018,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPartNumber" ""
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "fecf70a2-2216-4229-93c3-567be7970938")
 		)
@@ -2994,7 +3075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.42 83.82 0)
 			(effects
 				(font
@@ -3027,6 +3108,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CC0402KRX5R6BB104"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3100,6 +3199,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPartNumber" ""
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "43908c0f-b20d-4f7c-9d25-10e0caa80f3f")
 		)
@@ -3143,7 +3251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.534 77.724 90)
 			(effects
 				(font
@@ -3162,6 +3270,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 81.28 78.74 0)
 			(effects
 				(font
@@ -3210,7 +3327,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.534 82.804 90)
 			(effects
 				(font
@@ -3229,6 +3346,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 81.28 83.82 0)
 			(effects
 				(font
@@ -3297,6 +3423,15 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 44.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 44.45 55.88 0)
 			(effects
 				(font
@@ -3446,6 +3581,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPartNumber" ""
+			(at 44.45 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "fecf70a2-2216-4229-93c3-567be797093a")
 		)
@@ -3579,6 +3723,15 @@
 			)
 		)
 		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 140.97 50.8 0)
 			(effects
 				(font

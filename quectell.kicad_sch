@@ -1084,7 +1084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FC41D:XCVR_FC41D"
+		(property "Footprint" "library:XCVR_FC41D"
 			(at 139.7 72.39 0)
 			(effects
 				(font
@@ -1239,6 +1239,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

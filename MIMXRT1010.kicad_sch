@@ -5732,7 +5732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.454 96.774 90)
 			(effects
 				(font
@@ -5751,6 +5751,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 76.2 97.79 0)
 			(effects
 				(font
@@ -5960,6 +5969,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPartNumber" ""
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21a56067-74cd-406c-a44d-507c6d56071b")
 		)
@@ -6136,7 +6154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 243.84 91.44 0)
 			(effects
 				(font
@@ -6169,6 +6187,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 243.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CC0402KRX5R6BB104"
+			(at 243.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6277,7 +6313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MIMXRT1011DAE5A_NXP"
+		(property "Footprint" "footprints:MIMXRT1011DAE5A_NXP"
 			(at 85.09 41.91 0)
 			(effects
 				(font
@@ -6298,6 +6334,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 85.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 85.09 41.91 0)
 			(effects
 				(font
@@ -6715,7 +6760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 275.59 71.12 0)
 			(effects
 				(font
@@ -6748,6 +6793,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 275.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CC0402KRX5R6BB104"
+			(at 275.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6818,6 +6881,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPartNumber" ""
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7c8b54f-1f8b-4725-93ee-9160e2f890cc")
 		)
@@ -6861,7 +6933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 16.51 110.49 0)
 			(effects
 				(font
@@ -6880,6 +6952,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 16.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 16.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CL10A226MQ8NRNE "
 			(at 16.51 110.49 0)
 			(effects
 				(font
@@ -6930,7 +7020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 251.46 71.12 0)
 			(effects
 				(font
@@ -6963,6 +7053,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 251.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CC0402KRX5R6BB104"
+			(at 251.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6998,7 +7106,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0UF"
+		(property "Value" "1UF"
 			(at 25.4 86.9949 0)
 			(effects
 				(font
@@ -7007,7 +7115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 21.59 86.36 0)
 			(effects
 				(font
@@ -7041,6 +7149,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 21.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7243,6 +7360,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPartNumber" ""
+			(at 57.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdff0b1c-49ce-4349-8594-975216fc56b0")
 		)
@@ -7282,7 +7408,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 16.2052 137.16 0)
 			(effects
 				(font
@@ -7301,6 +7427,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 15.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 15.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CC0402KRX5R6BB104"
 			(at 15.24 133.35 0)
 			(effects
 				(font
@@ -7342,7 +7486,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7pF"
+		(property "Value" "4.7PF"
 			(at 49.022 157.988 0)
 			(effects
 				(font
@@ -7351,7 +7495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 49.2252 158.75 0)
 			(effects
 				(font
@@ -7370,6 +7514,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 48.26 154.94 0)
 			(effects
 				(font
@@ -7445,6 +7598,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPartNumber" ""
+			(at 59.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff4d3505-1269-4a6d-abe2-a0916f00bae7")
 		)
@@ -7484,7 +7646,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 pf"
+		(property "Value" "10 PF"
 			(at 51.054 119.634 0)
 			(effects
 				(font
@@ -7493,7 +7655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 49.2252 123.19 0)
 			(effects
 				(font
@@ -7526,6 +7688,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 48.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7561,7 +7732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 pf"
+		(property "Value" "10 PF"
 			(at 32.004 119.634 0)
 			(effects
 				(font
@@ -7570,7 +7741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 30.1752 123.19 0)
 			(effects
 				(font
@@ -7603,6 +7774,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 29.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7647,7 +7827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 271.78 91.44 0)
 			(effects
 				(font
@@ -7680,6 +7860,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 271.78 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CC0402KRX5R6BB104"
+			(at 271.78 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7724,7 +7922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -7757,6 +7955,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 257.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CC0402KRX5R6BB104"
+			(at 257.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7793,7 +8009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22uF"
+		(property "Value" "0.22UF"
 			(at 88.9 154.3049 0)
 			(effects
 				(font
@@ -7802,7 +8018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 85.09 153.67 0)
 			(effects
 				(font
@@ -7821,6 +8037,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 85.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 85.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CL10A226MQ8NRNE "
 			(at 85.09 153.67 0)
 			(effects
 				(font
@@ -7862,7 +8096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "10UF"
 			(at 24.638 135.89 0)
 			(effects
 				(font
@@ -7871,7 +8105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 25.0952 137.16 0)
 			(effects
 				(font
@@ -7890,6 +8124,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 24.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 24.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "GRM188R61A106KE69D "
 			(at 24.13 133.35 0)
 			(effects
 				(font
@@ -8073,7 +8325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 262.89 71.12 0)
 			(effects
 				(font
@@ -8106,6 +8358,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 262.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CC0402KRX5R6BB104"
+			(at 262.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8151,7 +8421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 263.906 58.674 90)
 			(effects
 				(font
@@ -8170,6 +8440,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 262.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 262.89 58.42 0)
 			(effects
 				(font
@@ -8287,7 +8566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 240.03 71.12 0)
 			(effects
 				(font
@@ -8320,6 +8599,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CC0402KRX5R6BB104"
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8431,7 +8728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 34.036 150.114 90)
 			(effects
 				(font
@@ -8450,6 +8747,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 33.02 149.86 0)
 			(effects
 				(font
@@ -8518,6 +8824,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 76.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 76.2 87.63 0)
 			(effects
 				(font
@@ -8625,7 +8940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7UF"
 			(at 102.87 154.3049 0)
 			(effects
 				(font
@@ -8634,7 +8949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 153.67 0)
 			(effects
 				(font
@@ -8675,6 +8990,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 99.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C1005X5R0J475M050BC "
+			(at 99.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8775,7 +9108,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7pF"
+		(property "Value" "4.7PF"
 			(at 73.406 157.734 0)
 			(effects
 				(font
@@ -8783,7 +9116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 70.8152 158.75 0)
 			(effects
 				(font
@@ -8802,6 +9135,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 69.85 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
 			(at 69.85 154.94 0)
 			(effects
 				(font
