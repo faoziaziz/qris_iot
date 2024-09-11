@@ -3138,39 +3138,6 @@
 		)
 		(uuid "fd72758f-234a-47cf-90b9-ff4bd8f337fd")
 	)
-	(label "LPI2C2_SCL"
-		(at 16.51 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2959803d-6392-40ff-a6b6-d52aeff3a9a4")
-	)
-	(label "LPI2C2_SDA"
-		(at 16.51 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6594daec-a1df-4484-9036-6fd4d2b44f72")
-	)
-	(label "System_batt"
-		(at 196.85 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7256ac3a-997a-4690-aab4-10d66c188199")
-	)
 	(label "alrt"
 		(at 50.8 81.28 0)
 		(fields_autoplaced yes)
@@ -3181,6 +3148,72 @@
 			(justify left bottom)
 		)
 		(uuid "8add5d63-2186-46ff-a094-21bf319374d1")
+	)
+	(global_label "LPI2C2_SCL"
+		(shape input)
+		(at 16.51 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ab78d5f-745d-4a68-bda8-906e072e8fcc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.5623 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPI2C2_SDA"
+		(shape input)
+		(at 16.51 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac2cc8c9-d06b-4955-86d6-6480e2552062")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.6228 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "System_batt"
+		(shape input)
+		(at 196.85 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cda7227e-3fe6-4ac7-883d-b3ee7e870f64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.435 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")

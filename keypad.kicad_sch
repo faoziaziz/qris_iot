@@ -516,126 +516,247 @@
 		)
 		(uuid "f8a04eac-cdfd-4190-ab7c-d72abae080f5")
 	)
-	(label "ADD_EL1"
-		(at 69.85 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "16a4f50e-e32a-4761-9654-4c6154bc7358")
-	)
-	(label "ADD_EL3"
-		(at 69.85 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18a2b17f-9527-4fef-8808-2c91a0519d27")
-	)
-	(label "R2_KEYPAD"
-		(at 68.58 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2529dd61-f9e6-4592-9c56-eaad9b3dbfd2")
-	)
-	(label "R3_KEYPAD"
-		(at 68.58 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cba5892-6265-4ac1-85bf-61617e523860")
-	)
-	(label "R1_KEYPAD"
-		(at 68.58 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "654b735f-42eb-43f0-81ea-e2132c106e6f")
-	)
-	(label "C1_KEYPAD"
-		(at 68.58 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8204b54f-dec9-493d-8590-6aa410e198fe")
-	)
-	(label "C4_KEYPAD"
-		(at 68.58 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a48a19dc-5d3f-45ac-ad68-93cc12a373be")
-	)
-	(label "C3_KEYPAD"
+	(global_label "C3_KEYPAD"
+		(shape input)
 		(at 68.58 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "a51c4875-f720-469c-ae50-10631c9a47fd")
+		(uuid "033bd46d-b8cd-4444-9e24-107201564108")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1485 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "C2_KEYPAD"
-		(at 68.58 46.99 0)
+	(global_label "ADD_EL1"
+		(shape input)
+		(at 69.85 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "c9e77c5b-e13a-44e2-b792-d36723c11437")
+		(uuid "0bb7d2a4-2460-47c0-ae43-e1865eab2657")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.818 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "ADD_EL2"
-		(at 69.85 36.83 0)
+	(global_label "ADD_EL3"
+		(shape input)
+		(at 69.85 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f5e4bce1-6604-40ed-af38-25ea3e90b2d1")
+		(uuid "66e56bde-63df-499a-bd22-7ca53f2ddda9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.818 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "R4_KEYPAD"
+	(global_label "R2_KEYPAD"
+		(shape input)
+		(at 68.58 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69044799-226e-428a-b4e9-f425dce682cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1485 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R4_KEYPAD"
+		(shape input)
 		(at 68.58 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f7e98d35-f6ef-4936-8dca-ed910b25789b")
+		(uuid "69a8914b-526f-4304-a775-ccb664bbafc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1485 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4_KEYPAD"
+		(shape input)
+		(at 68.58 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c405bff-ab48-43ae-ae3d-d54808a45df5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1485 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1_KEYPAD"
+		(shape input)
+		(at 68.58 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e57d5412-d146-4f1a-b1c8-df2dd5093a8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1485 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R1_KEYPAD"
+		(shape input)
+		(at 68.58 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f494499d-f843-4a6d-b8b9-0d4e9e2dcad2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1485 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2_KEYPAD"
+		(shape input)
+		(at 68.58 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5379349-31b4-4b4d-9f47-b25bb8e3df31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1485 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADD_EL2"
+		(shape input)
+		(at 69.85 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f763e094-5016-4019-b038-bfa5a88d451f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.818 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R3_KEYPAD"
+		(shape input)
+		(at 68.58 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa122f91-da04-46b5-b8da-1bad4050c5f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1485 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x11")

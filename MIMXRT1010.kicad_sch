@@ -4805,775 +4805,1545 @@
 		)
 		(uuid "7375a9a5-a5af-4bee-a89b-65c232ae1583")
 	)
-	(label "C4_KEYPAD"
-		(at 219.71 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "00ecf2d2-ee5e-443b-8acc-dca88baf2ddb")
-	)
-	(label "ONOFF"
-		(at 69.85 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "035634a8-4418-4dec-b229-f60b175afd24")
-	)
-	(label "JTAG_TRSTB"
-		(at 241.3 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "041c9375-209e-4e43-811b-093048fa9d01")
-	)
-	(label "JTAG_TDI"
-		(at 241.3 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "08a91987-5c7a-493e-b5f3-6e8c571eac19")
-	)
-	(label "MCU_PWM_CERVO"
-		(at 49.53 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0cf1b37e-f407-4f17-87d4-ccf9ff409bd1")
-	)
-	(label "FlexSPI_D1_A"
-		(at 232.41 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1964015c-ba96-45af-9df9-0fd7588ccdfa")
-	)
-	(label "ADD_EL1"
-		(at 214.63 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2057a2b5-d0ac-4cb3-b5ae-8556083b2b00")
-	)
-	(label "ADD_EL2"
-		(at 222.25 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22dbcfea-85bc-4887-933a-547af6eecc8f")
-	)
-	(label "ADD_EL3"
-		(at 231.14 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "266d5dd3-0dc6-4302-9a25-fc82aeea0854")
-	)
-	(label "VDD_HIGH_IN_MCU"
-		(at 62.23 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d2db371-e792-4363-988c-c7869762a2c9")
-	)
-	(label "LPI2C1_SCL"
-		(at 232.41 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "33da98de-1d46-404f-a2b2-0c3a2dbcd6e9")
-	)
-	(label "FlexSPI_D3_A"
-		(at 242.57 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b8f1bea-c67d-43ae-9d9e-488d0d55e2de")
-	)
-	(label "GPIO_00"
-		(at 80.01 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47752a61-03cb-4156-a7f7-1d4edd549d5c")
-	)
-	(label "LPSPI1_SCK"
-		(at 251.46 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4e551a8d-7e7f-40d1-8f4a-ecfd289e0f5c")
-	)
-	(label "VDDA_2P5_CAP"
-		(at 67.31 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57b58fe1-ab82-4ec4-b4d4-e71c0e1155ac")
-	)
-	(label "FlexSPI_D0_A"
-		(at 241.3 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c1ecb38-86bb-4d04-9a81-713393b718c8")
-	)
-	(label "SWD_DIO"
-		(at 233.68 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6040a221-ee0f-4b5b-a789-2c39a92ff04d")
-	)
-	(label "GREEN_LED"
-		(at 58.42 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6648415a-c619-4931-99d2-d20bee6a4684")
-	)
-	(label "VDDA_1P1_CAP"
-		(at 85.09 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67004d82-ec58-49f2-ba8b-629580ccc229")
-	)
-	(label "LPUART4_RXD_ALT0"
-		(at 234.95 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "68a1d92d-3c38-4efc-8705-f406034e4e19")
-	)
-	(label "DCDC_PSWITCH_MCU"
-		(at 55.88 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69f91474-79ac-4517-96fb-82aa3c5e2c5b")
-	)
-	(label "VDD_SOC_IN"
-		(at 251.46 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6a93b9f3-1966-47d6-9815-a8b917d55973")
-	)
-	(label "R4_KEYPAD"
-		(at 220.98 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e1a6d5d-4773-44c5-853b-21b7713c2654")
-	)
-	(label "R3_KEYPAD"
-		(at 76.2 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6f1d9489-7d15-4f57-b7d4-b50b442751a4")
-	)
-	(label "LPSPI1_SDI"
-		(at 227.33 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "727e99a3-469f-4f9f-ab24-e3e4f79d121f")
-	)
-	(label "POR_B"
-		(at 81.28 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "72dcae9e-4975-4dcc-8a11-eb98d7e6adef")
-	)
-	(label "LPSPI1_PCS0"
-		(at 227.33 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "749754d8-6f13-48e7-9e88-e2ea092b754c")
-	)
-	(label "NVCC_GPIO_3V3"
-		(at 58.42 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "75a5fcef-5c81-46d1-b4f7-b1ddef71b8bc")
-	)
-	(label "SWD_CLK"
-		(at 233.68 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76bfd3e7-6eb4-449d-9d34-0d6829c200f4")
-	)
-	(label "MCU_DCDC_IN"
-		(at 60.96 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "778e5ba6-a5f6-4929-9dce-3c3b2faa6439")
-	)
-	(label "VDDA_ADC_3P3_MCU"
-		(at 220.98 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78bd412a-1734-4721-8327-16c18b85664b")
-	)
-	(label "BLUE_LED"
-		(at 58.42 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b492e91-43bc-42b3-8c6b-989bdd912874")
-	)
-	(label "JTAG_TCK"
-		(at 241.3 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8258876f-9a24-429b-9df5-f0332f116c65")
-	)
-	(label "GPIO_03_ALT2"
-		(at 58.42 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "870d26e2-d842-4192-9aca-b02a7d6e2917")
-	)
-	(label "5V_USB_OTG"
-		(at 21.59 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87f3fff0-3585-449b-9680-981374f94aa3")
-	)
-	(label "FlexSPI_D2_A"
-		(at 237.49 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8871e1ab-efc6-4c6e-9673-90cdbb2b598f")
-	)
-	(label "PMIC_ON_REQ"
-		(at 53.34 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b01b7c4-d0f2-4034-b888-56f494a1ca57")
-	)
-	(label "R1_KEYPAD"
-		(at 220.98 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b26a943-76e8-4564-a242-e9877e5e0e36")
-	)
-	(label "DCDC_3V3"
-		(at 262.89 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "94cc828b-ead3-455b-a689-2af0b5d1692d")
-	)
-	(label "NVCC_GPIO_3V3"
-		(at 241.3 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9bf0c0d8-e44f-4dbc-86c6-3f096d063cc9")
-	)
-	(label "LPI2C2_SDA"
-		(at 58.42 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9cc3d3af-ecc1-4b0f-b58f-c9f17812d16c")
-	)
-	(label "buzzer"
-		(at 58.42 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d29d1fa-a7bf-4d9a-8387-6c6bfd1f7709")
-	)
-	(label "LPSPI1_SDO"
-		(at 227.33 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ec5f6f4-7066-43a9-a3ee-3ed6e634ba10")
-	)
-	(label "OTG1_DP"
-		(at 73.66 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a00eddaf-c284-4ae4-91c6-0818764c4833")
-	)
-	(label "VDD_SNVS_IN"
-		(at 53.34 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a165f1be-25db-409e-89af-86e7bec9d56b")
-	)
-	(label "LPUART3_TXD_ALT0"
-		(at 245.11 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abb585d5-6db5-4bf2-8351-4ac288ef4fcd")
-	)
-	(label "VDD_SOC_IN"
-		(at 55.88 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b25890a0-73fd-430d-89e9-ce13fd4c3811")
-	)
-	(label "LPUART2_RXD_ALT2"
-		(at 237.49 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b965c938-d611-4eec-98b5-335e094ac205")
-	)
-	(label "OTG1_DN"
-		(at 73.66 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc3bec63-870e-420f-91c7-df3fc600e85c")
-	)
-	(label "USER_BUTTON"
-		(at 218.44 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2e7f2d2-5a7e-470c-8fab-6f26e483b67b")
-	)
-	(label "LPI2C2_SCL"
-		(at 58.42 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3aa357d-9969-4919-8706-f9a206e38af3")
-	)
-	(label "C2_KEYPAD"
-		(at 77.47 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6a89dab-d7b3-4e23-b467-cc84e7887192")
-	)
-	(label "LPI2C1_SDA"
-		(at 232.41 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cb6060eb-ea4d-4ab6-add1-746620c594f4")
-	)
-	(label "VDDA_ADC_3V3"
-		(at 266.7 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce48b1cd-99a7-43c2-8f37-b79650bf6cef")
-	)
-	(label "LPUART3_RXD_ALT0"
-		(at 58.42 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf1ef18a-941c-4590-9ee8-d8a19403b738")
-	)
-	(label "alrt"
+	(global_label "alrt"
+		(shape input)
 		(at 218.44 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "d4c26c6c-6e40-4aa6-9cfa-55340c1b3c43")
+		(uuid "0101052c-e47b-4ae0-b1bd-fcadbbb4780c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.7513 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "VDD_SOC_IN"
-		(at 252.73 110.49 180)
+	(global_label "R3_KEYPAD"
+		(shape input)
+		(at 76.2 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "d88c7f7e-221c-46ca-b574-acc183e4dffb")
+		(uuid "02c25e4a-fc76-45f1-ac38-f6e722ddbc35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.6315 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "FlexSPI_SS0"
-		(at 232.41 69.85 0)
+	(global_label "C2_KEYPAD"
+		(shape input)
+		(at 77.47 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "e08e065a-89bf-4ee6-a872-fec17720f2c7")
-	)
-	(label "JTAG_TDO"
-		(at 241.3 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "03496553-432c-4d7d-b78b-ec351bc66ad7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.9015 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
 			)
-			(justify right bottom)
 		)
-		(uuid "e12cbc0d-9938-460c-aa11-38f0ada6b584")
 	)
-	(label "LPUART4_TXD_ALT0"
-		(at 234.95 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e432395c-b658-417c-8538-6fcfdf42e602")
-	)
-	(label "DCDC_OUT"
-		(at 55.88 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4338675-381d-4088-a6cf-e14d52cf6108")
-	)
-	(label "FlexSPI_CLK_A"
-		(at 241.3 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8b8131f-a1e3-4f07-a37d-893064484e32")
-	)
-	(label "R2_KEYPAD"
-		(at 220.98 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e96d3496-214f-4e89-8568-0e406eb28b83")
-	)
-	(label "JTAG_TMS"
-		(at 241.3 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e9ac6c0c-8387-46fc-849b-9ab79fc5777d")
-	)
-	(label "C1_KEYPAD"
-		(at 231.14 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec6ff83c-a5a2-4c0e-bd0b-4c83457d4073")
-	)
-	(label "LPUART1_TXD_ALT2"
-		(at 237.49 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ecc239d6-5ab3-4b9d-86a0-f43ac6d05c29")
-	)
-	(label "LPUART2_TXD_ALT2"
+	(global_label "LPUART2_TXD_ALT2"
+		(shape input)
 		(at 237.49 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "f45b38a7-9fee-4475-91ef-94b9ea693b2b")
+		(uuid "034b010b-ecec-451e-8311-9d981d93ed2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.6644 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "C3_KEYPAD"
-		(at 77.47 69.85 180)
+	(global_label "VDDA_1P1_CAP"
+		(shape input)
+		(at 85.09 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "faf098fc-399b-4acf-ae2f-27ebc6b06f19")
+		(uuid "06029fb0-65bb-4ad1-8d20-d6672db9ee12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.0452 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "LPUART1_RXD_ALT2"
+	(global_label "JTAG_TDI"
+		(shape input)
+		(at 241.3 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07ff248e-3faa-437d-8e2c-75f5fb1cb6cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.211 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_SOC_IN"
+		(shape input)
+		(at 251.46 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e3b5e38-baa6-4b2e-bb12-92285d40cbe6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.1657 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FlexSPI_D3_A"
+		(shape input)
+		(at 242.57 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ee0beb4-91bf-4bff-9466-84d25b54e5e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.0133 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_PWM_CERVO"
+		(shape input)
+		(at 49.53 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10ee9c32-17de-459d-84f5-a2cf1c7f837a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.2768 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWD_DIO"
+		(shape input)
+		(at 233.68 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2142dae6-14ee-45e0-a910-e5835d065f0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.769 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DCDC_IN"
+		(shape input)
+		(at 60.96 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22b7d19e-51f0-4c31-8ee5-271197284b15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.9724 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPUART1_TXD_ALT2"
+		(shape input)
+		(at 237.49 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28bbf183-3f7c-4541-a5b3-dcc3a12c331c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.6644 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPI2C1_SDA"
+		(shape input)
+		(at 232.41 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cb998c0-0726-4ae2-97bb-a180c607c4e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.2972 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWD_CLK"
+		(shape input)
+		(at 233.68 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a7c891a-8883-4a09-8414-39f1c7e33715")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.1318 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPI2C2_SDA"
+		(shape input)
+		(at 58.42 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42fa282e-f88e-427d-b480-7a6edc95b203")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.3072 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ONOFF"
+		(shape input)
+		(at 69.85 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4387c64a-4200-4983-a7fb-bbc88272c276")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.0039 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4_KEYPAD"
+		(shape input)
+		(at 219.71 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4406b503-d37e-4367-aa17-c78ef32c4ef3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.2785 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_SOC_IN"
+		(shape input)
+		(at 252.73 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45443305-4938-453c-adbf-f967fd0dfe06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.4357 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADD_EL2"
+		(shape input)
+		(at 222.25 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4576607c-d787-4685-a9cb-63d0a38dfcb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.218 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPUART1_RXD_ALT2"
+		(shape input)
 		(at 237.49 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "fcddf536-a234-4de5-a3e7-e6564deef7f7")
+		(uuid "4995e2c1-1cd4-4f6b-851c-6529ddf5d72b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.362 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "RED_LED"
+	(global_label "USER_BUTTON"
+		(shape input)
+		(at 218.44 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52af726d-d81b-47f5-8c68-d1e00e7101af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.5485 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2_KEYPAD"
+		(shape input)
+		(at 220.98 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "547eab7c-b487-47cf-954d-396e2d380a31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.5485 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TDO"
+		(shape input)
+		(at 241.3 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "641fbe6c-8e3d-40e3-82d5-8d8e536f0877")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.4853 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCDC_PSWITCH_MCU"
+		(shape input)
+		(at 55.88 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65963cfb-a84e-4af3-9ed1-8a5b82ce7d88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.0361 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_SNVS_IN"
+		(shape input)
+		(at 53.34 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68194d76-d81b-4e8c-a628-cc1f46555e04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.6624 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TMS"
+		(shape input)
+		(at 241.3 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68b1c454-a44f-470a-912f-88e07eacb421")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.4249 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_03_ALT2"
+		(shape input)
+		(at 58.42 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6907ee85-3acc-4dd7-9e50-52ed8487d1ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.5285 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FlexSPI_D2_A"
+		(shape input)
+		(at 237.49 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bdd9f40-a995-4449-b0ac-11b00fd20430")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.9333 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FlexSPI_D0_A"
+		(shape input)
+		(at 241.3 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e57188e-b60a-4af0-9cea-223005bf820f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.7433 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADD_EL1"
+		(shape input)
+		(at 214.63 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ff9740f-b4f5-451a-9d76-0adb1f007cfc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.598 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPSPI1_PCS0"
+		(shape input)
+		(at 227.33 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "731e6e8d-375e-499b-ae7a-9cd216d124fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.8263 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RED_LED"
+		(shape input)
 		(at 58.42 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "fdedc074-b755-4b3f-b1d4-de3caee4d780")
+		(uuid "7589332c-e3ef-4246-bce4-f528996e3162")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.5089 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDA_ADC_3V3"
+		(shape input)
+		(at 266.7 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75f2d28b-3002-476d-99b4-9de03fdead31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 283.4738 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NVCC_GPIO_3V3"
+		(shape input)
+		(at 241.3 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76126235-47bf-418b-ade9-61269a7195c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.1624 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPI2C1_SCL"
+		(shape input)
+		(at 232.41 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "767f9590-52c7-4fd5-8842-5845b594f535")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.3577 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OTG1_DP"
+		(shape input)
+		(at 73.66 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7693fb11-aed2-4f50-ad58-3091f672f1ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.9304 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPI2C2_SCL"
+		(shape input)
+		(at 58.42 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "774c8912-9f74-4250-b668-468831491814")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.3677 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCDC_3V3"
+		(shape input)
+		(at 262.89 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81b3f885-dcbb-41f2-8d49-3bffc6badf8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.4304 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POR_B"
+		(shape input)
+		(at 81.28 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8468770e-7b50-41d4-8dad-7babf7058437")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.1867 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPUART3_RXD_ALT0"
+		(shape input)
+		(at 58.42 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "943c15a5-9e25-49a3-8bde-b1d3a08ea8e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.292 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_HIGH_IN_MCU"
+		(shape input)
+		(at 62.23 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97c7f495-025f-43ec-9f0e-9ac39750b18d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.2696 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1_KEYPAD"
+		(shape input)
+		(at 231.14 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a00e0978-f928-447e-9a53-54b37f12f471")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.7085 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NVCC_GPIO_3V3"
+		(shape input)
+		(at 58.42 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a32b177a-2c75-47d0-82ca-8e815bd4233a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.2824 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OTG1_DN"
+		(shape input)
+		(at 73.66 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a48a3b5a-de7c-475b-b248-fcdb0ae08614")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.9909 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPSPI1_SCK"
+		(shape input)
+		(at 251.46 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a48fc509-db68-4e1a-a600-1652517f5b7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.1658 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_SOC_IN"
+		(shape input)
+		(at 55.88 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a93f8f7a-0d48-4d4c-b86a-5ed80a1cdf9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.1743 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPSPI1_SDI"
+		(shape input)
+		(at 227.33 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa587700-3bd4-4f64-ba16-a5e3ccdb2b0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.701 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "buzzer"
+		(shape input)
+		(at 58.42 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3f52c45-c51a-472a-b53d-e1282f17bba0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.2058 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3_KEYPAD"
+		(shape input)
+		(at 77.47 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b51eca67-d50d-46d3-9daa-db2ce7ebc065")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.9015 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPSPI1_SDO"
+		(shape input)
+		(at 227.33 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb23dac3-97fb-4666-af6e-56fccdf0b5bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.9753 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PMIC_ON_REQ"
+		(shape input)
+		(at 53.34 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1f49e13-303d-4bc5-a9cb-b7e9b83df4aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.2671 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FlexSPI_CLK_A"
+		(shape input)
+		(at 241.3 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c281cb49-68fd-4044-9180-0df079a46a2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.8319 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R4_KEYPAD"
+		(shape input)
+		(at 220.98 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c944ffbd-7624-455c-8da0-996333c48788")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.5485 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPUART3_TXD_ALT0"
+		(shape input)
+		(at 245.11 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "caa35ee7-e0ba-44f1-9311-1370582a7e54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.2844 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPUART4_TXD_ALT0"
+		(shape input)
+		(at 234.95 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb684378-a51b-472d-a193-0f3f9027cda3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.1244 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCDC_OUT"
+		(shape input)
+		(at 55.88 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cea90aa5-10d6-4e6e-bc52-c782b926a039")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.5414 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_00"
+		(shape input)
+		(at 80.01 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d647775c-ba1a-4ea2-9687-ded935d84ead")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.1629 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPUART2_RXD_ALT2"
+		(shape input)
+		(at 237.49 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d68373aa-5b8f-4881-ab14-b1d7c57a4631")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.362 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPUART4_RXD_ALT0"
+		(shape input)
+		(at 234.95 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db6a6d94-7ecd-4f51-8119-fe8bccfa5ec0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.822 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDA_2P5_CAP"
+		(shape input)
+		(at 67.31 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db81341e-ce21-4d86-b9cf-e996f2279b4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.2652 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_USB_OTG"
+		(shape input)
+		(at 21.59 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2a52ecd-e2e9-454c-8bb6-b074c060dfe7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.1866 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R1_KEYPAD"
+		(shape input)
+		(at 220.98 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5799530-2e04-4b6d-9e72-5f675cadb754")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.5485 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TCK"
+		(shape input)
+		(at 241.3 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efa13db6-da2e-4e26-a878-f8b3513fac9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.5458 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FlexSPI_D1_A"
+		(shape input)
+		(at 232.41 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f12d9d37-073c-4c27-9728-5723ad0c4e55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.8533 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GREEN_LED"
+		(shape input)
+		(at 58.42 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f20a994c-a0b4-44b3-ab9f-bdf24bb83d35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.9884 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FlexSPI_SS0"
+		(shape input)
+		(at 232.41 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5e6d323-3e1e-40f4-9838-5e6a0d522331")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.9461 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDA_ADC_3P3_MCU"
+		(shape input)
+		(at 220.98 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8e6a31d-8972-49dc-9911-1e4ac1dacf06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.9547 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADD_EL3"
+		(shape input)
+		(at 231.14 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa20f27a-ea64-4b84-93e5-5ad29a38b6f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.108 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BLUE_LED"
+		(shape input)
+		(at 58.42 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd888674-d909-493b-ad03-d5cd8e709514")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.5975 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TRSTB"
+		(shape input)
+		(at 241.3 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe2c6263-c792-4139-84d5-26754dfd334c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.3687 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")

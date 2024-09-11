@@ -1470,137 +1470,269 @@
 		)
 		(uuid "cf9a94ed-dfa7-43b9-a8de-9e6dd683caae")
 	)
-	(label "JTAG_TCK"
-		(at 127 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1959d9d9-b214-4c4b-a058-9301c0c76338")
-	)
-	(label "P3V3_SDA"
-		(at 78.74 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19f6bf0e-5b0c-41f5-89f2-414855bf1c09")
-	)
-	(label "DCDC_3V3"
-		(at 91.44 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1beb4743-f42e-4fd4-8eb9-6d778b18212c")
-	)
-	(label "JTAG_TRSTB"
-		(at 127 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e5e7658-7307-43d2-bb89-5b69a6c5e938")
-	)
-	(label "JTAG_TDO"
-		(at 127 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f8afc09-2739-4326-bbca-bfa16174398b")
-	)
-	(label "SDA_JTAG_TMS"
-		(at 134.62 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "434d4f2a-2d17-4da9-abd9-ec2c4e473bb0")
-	)
-	(label "JTAG_TDI"
+	(global_label "JTAG_TDI"
+		(shape input)
 		(at 127 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "596b5443-19e0-4bc2-b604-b375c6eb08cb")
+		(uuid "006ad5d8-a96f-4599-9db9-967e43641660")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.089 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "SDA_JTAG_TDI"
-		(at 134.62 90.17 180)
+	(global_label "P3V3_SDA"
+		(shape input)
+		(at 78.74 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "9de673cc-83df-4360-8627-777a90b940c4")
+		(uuid "3708f94e-5915-4306-bdcd-5403a2ad1a1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.0385 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "SDA_RST"
-		(at 134.62 92.71 180)
+	(global_label "JTAG_TDO"
+		(shape input)
+		(at 127 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "a292c627-9b17-40cc-96a9-f9b333cb7d78")
+		(uuid "56f81c57-48e6-4f3a-b28d-c7e0943a45d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.8147 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "SDA_JTAG_TCLK"
-		(at 134.62 85.09 180)
+	(global_label "JTAG_TRSTB"
+		(shape input)
+		(at 127 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "b4df2ba1-3836-44a1-a0cf-b0e63a1a7306")
+		(uuid "8746f5a6-6e89-4e68-a650-e4d038dbf9e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.9313 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "SDA_JTAG_TDO"
+	(global_label "DCDC_3V3"
+		(shape input)
+		(at 91.44 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96d2b99d-4594-46bc-8905-e6e37234fc9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.9804 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_JTAG_TDO"
+		(shape input)
 		(at 134.62 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "bda5b121-522c-48a8-a7bd-a1c29a2a6f30")
+		(uuid "9cf5c456-c5f9-451d-9427-9c947d204755")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.2696 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "JTAG_TMS"
+	(global_label "SDA_JTAG_TCLK"
+		(shape input)
+		(at 134.62 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a17d7427-ca5d-4780-af67-b4646632851b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.302 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_RST"
+		(shape input)
+		(at 134.62 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aed23003-17df-4058-8fc0-336f3bf887c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.652 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_JTAG_TMS"
+		(shape input)
+		(at 134.62 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2763beb-bbe7-4057-b00c-c85a6070f93d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.2092 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TCK"
+		(shape input)
+		(at 127 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c224b196-1810-4290-a62b-291c397537ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.7542 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_JTAG_TDI"
+		(shape input)
+		(at 134.62 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd5036f6-7d0f-49f9-a137-afefe11bcdaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.9953 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TMS"
+		(shape input)
 		(at 127 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "beeda965-2c93-4ff0-a5f1-3c53fbcc3fa2")
+		(uuid "f3540bd2-7b31-4524-9f10-698897694688")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.8751 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")

@@ -3651,6 +3651,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 69.85) (xy 63.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83298746-d82f-4cea-a021-d9c0211df214")
+	)
+	(wire
+		(pts
 			(xy 214.63 59.69) (xy 214.63 60.96)
 		)
 		(stroke
@@ -3708,6 +3718,16 @@
 			(type default)
 		)
 		(uuid "8981ae6c-3cad-4442-b878-f32c9ac40215")
+	)
+	(wire
+		(pts
+			(xy 24.13 40.64) (xy 24.13 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a43ba3-0830-4b3b-900e-c9d61fdc71f0")
 	)
 	(wire
 		(pts
@@ -4201,16 +4221,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 34.29) (xy 24.13 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbc66671-5d59-4ac1-886b-2e84b2bfe356")
-	)
-	(wire
-		(pts
 			(xy 207.01 59.69) (xy 214.63 59.69)
 		)
 		(stroke
@@ -4388,6 +4398,16 @@
 			(type default)
 		)
 		(uuid "df6bf3e5-6f73-44d8-b3bd-ba68c4c4b84b")
+	)
+	(wire
+		(pts
+			(xy 63.5 69.85) (xy 63.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d1e0c1-6850-4a67-b619-10c113df6103")
 	)
 	(wire
 		(pts
@@ -4641,215 +4661,6 @@
 		)
 		(uuid "f41dc4ee-8fc8-44d9-b06a-24aba6e974f9")
 	)
-	(label "MCU_DCDC_IN_3V3"
-		(at 210.82 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01c7f5cf-8036-4cbb-b858-2afa7b5f2172")
-	)
-	(label "DCDC_3V3"
-		(at 57.15 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d55fab5-ee62-4bea-93de-ef5a743f09dc")
-	)
-	(label "5V_USB_OTG"
-		(at 63.5 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13746ac8-f8aa-4027-b4b4-6adbb86da871")
-	)
-	(label "OTG1_DP"
-		(at 171.45 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16d99a59-e464-40f3-9ba5-279a83b6aba7")
-	)
-	(label "DCDC_3V3"
-		(at 180.34 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "190bff8c-043d-4fca-9814-6d83204de053")
-	)
-	(label "VDD_SNVS_3V3"
-		(at 29.21 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "25c21b49-0078-4080-ad49-dbb4d5c0739f")
-	)
-	(label "DCDC_OUT"
-		(at 92.71 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a02ae88-c8d5-4a3e-ade3-998cf8a54899")
-	)
-	(label "3.3dariUSB"
-		(at 49.53 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30062e92-4312-4b31-9fb8-e57b338593c7")
-	)
-	(label "MCU_DCDC_IN"
-		(at 195.58 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46d971cb-8530-465c-b27e-97e4047097ce")
-	)
-	(label "DCDC_3V3"
-		(at 22.86 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "57f56246-0b49-45da-b20d-59e4e79bda85")
-	)
-	(label "VDD_HIGH_IN_3V3"
-		(at 267.97 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "63004b0a-fb47-4f24-9e0a-60852e7bbacb")
-	)
-	(label "MCU_DCDC_IN"
-		(at 240.03 90.17 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65d3ab26-3f22-4780-9ca1-d04b7647adfd")
-	)
-	(label "P3V3_SDA"
-		(at 57.15 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "66d9ce0c-4e9b-4610-aeea-14b301a0669a")
-	)
-	(label "MCU_DCDC_IN"
-		(at 260.35 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6c1494b3-fa9a-4bfd-be93-38779eae7926")
-	)
-	(label "MCU_DCDC_IN_3V3"
-		(at 210.82 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70569fdb-24bf-4200-b599-d2fb3553d7c8")
-	)
-	(label "DCDC_OUT"
-		(at 63.5 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7062b494-b50c-437b-9367-e22852aeb82d")
-	)
-	(label "VDDA_ADC_3P3_MCU"
-		(at 185.42 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "75c6afac-f73d-4b40-9d3c-c9215620b8fe")
-	)
-	(label "VDD_SNVS_IN"
-		(at 215.9 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b4e939c-7ce7-4dce-b0ff-612e36e8d089")
-	)
-	(label "5V_USB_OTG"
-		(at 77.47 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8293aa2b-1387-4b51-aa91-f093644bb0a4")
-	)
 	(label "VDD_HIGH_IN_MCU"
 		(at 177.8 118.11 0)
 		(fields_autoplaced yes)
@@ -4861,181 +4672,775 @@
 		)
 		(uuid "8bbb7074-2722-4bd6-ae38-09c36f4e6dc8")
 	)
-	(label "POR_B"
-		(at 77.47 17.78 180)
+	(global_label "VDD_HIGH_IN_3V3"
+		(shape input)
+		(at 267.97 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "919f4c54-2fd4-4157-ade7-c9d1aaa256ac")
+		(uuid "0435f050-564f-4b12-b2e4-3518e053faf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.4747 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "3.3dariUSB"
-		(at 156.21 157.48 0)
+	(global_label "3.3dariUSB"
+		(shape input)
+		(at 156.21 157.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "94c9c5c6-4762-426c-a104-51d08cb648ef")
-	)
-	(label "DCDC_3V3"
-		(at 128.27 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "074c58f2-2ed0-4a78-b6e5-ff409f29a5bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 143.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "ab472e59-141d-48c9-a89f-3d0c3c3bf6c5")
 	)
-	(label "OTG1_DN"
-		(at 171.45 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aee1cf63-d49c-4a62-9af9-694bb1dfe386")
-	)
-	(label "DCDC_PSWITCH_MCU"
-		(at 222.25 88.9 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "afc9ccbf-d66a-4182-bb54-c038e3f3927f")
-	)
-	(label "VDD_SOC_IN"
+	(global_label "VDD_SOC_IN"
+		(shape input)
 		(at 21.59 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "c8e11c14-c538-4c81-a4c0-0fff1b4e0a23")
+		(uuid "0cc40896-a472-4236-87d8-2af67a073adb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.8843 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "VDDA_ADC_3V3"
-		(at 156.21 24.13 180)
+	(global_label "3.3dariUSB"
+		(shape input)
+		(at 49.53 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "c95487a5-7cf7-4a23-b466-e40a71bb9330")
+		(uuid "13ff4153-7765-497b-a566-73288530f67c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.038 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "VDD_COIN_3V"
-		(at 256.54 127 180)
+	(global_label "DM_FB"
+		(shape input)
+		(at 123.19 104.14 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "cc2e2404-9bd3-4959-8828-3111d128bac7")
+		(uuid "19cd87dd-ad7b-49f8-8898-e3a1c2c35abe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 113.1728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "5V_USB_OTG_S"
+	(global_label "DCDC_OUT"
+		(shape input)
+		(at 63.5 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1daf6bba-6476-40c1-97ec-78392a7ec2ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8386 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCDC_OUT"
+		(shape input)
+		(at 92.71 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24659ff0-b06b-4c16-81d5-4031fdba2ad9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.3714 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_USB_OTG_S"
+		(shape input)
 		(at 99.06 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "ccf90f1d-5651-4c75-bb02-9a67022624e8")
+		(uuid "3bb0c356-291b-450f-9001-93ae4030f3c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.2863 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "VDDA_2P5_CAP"
-		(at 144.78 64.77 0)
+	(global_label "POR_B"
+		(shape input)
+		(at 77.47 17.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "d1a3a9e1-1c81-4e5a-bf34-2e2d1c9f2a3c")
+		(uuid "3e469cf5-ff4d-4a4c-8d35-5447d19255e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.3767 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "VLDO_3V3"
-		(at 57.15 157.48 180)
+	(global_label "DCDC_3V3"
+		(shape input)
+		(at 24.13 40.64 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "d697cda1-67b7-45b3-8607-59068159b0d7")
+		(uuid "49f378cf-9259-42ea-a99e-a785ba3fc529")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.13 53.1804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "VDD_HIGH_IN_3V3"
-		(at 177.8 118.11 270)
+	(global_label "VDD_SNVS_3V3"
+		(shape input)
+		(at 29.21 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "dbb09ee4-e9ac-4469-a236-1f56c45c33d5")
+		(uuid "5a7c79e1-bc3d-45a5-b161-edddff3125d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.3153 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "DP_FB"
-		(at 123.19 101.6 0)
+	(global_label "5V_USB_OTG"
+		(shape input)
+		(at 77.47 157.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f2e62724-4719-4c80-9f53-4876236e3e18")
+		(uuid "5aff6516-8ce5-4529-9331-8b9896e9da47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 142.8834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "DCDC_3V3"
+	(global_label "VDDA_ADC_3P3_MCU"
+		(shape input)
+		(at 185.42 100.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e1c566d-8304-4cf0-af09-b28602ab4ccf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.42 78.3553 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DCDC_IN"
+		(shape input)
+		(at 240.03 90.17 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e64fa85-b2b0-4a30-9fe6-eca7fd8e2b5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 106.1576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_COIN_3V"
+		(shape input)
+		(at 255.27 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "622e09d9-e066-4481-9a9a-560422831077")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.6529 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DCDC_IN"
+		(shape input)
+		(at 195.58 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "660437a9-9b73-499f-abc7-a7d9a9e3e2fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.5924 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DCDC_IN_3V3"
+		(shape input)
+		(at 210.82 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e8c64bc-d29f-4640-a5b3-cf56f9bfff7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.3572 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDA_ADC_3V3"
+		(shape input)
+		(at 156.21 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7acc121f-d233-4ba5-9370-51fb48a50cdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.4362 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DCDC_IN"
+		(shape input)
+		(at 260.35 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88153b7a-df28-4096-acbb-8cb5d68be0af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.3624 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCDC_3V3"
+		(shape input)
+		(at 128.27 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88169a6d-d58a-4342-84ac-f2529f3941ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.8104 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DCDC_IN_3V3"
+		(shape input)
+		(at 210.82 59.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d988de5-724d-421b-9b27-aa9213dc1dbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.82 80.1528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_SNVS_3V3"
+		(shape input)
+		(at 256.54 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2f276d6-296c-4df0-930f-246967d42a47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.4347 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DP_FB"
+		(shape input)
+		(at 123.19 101.6 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1d3ab59-7f44-48e2-b4c7-d9538c738716")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 92.7486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDA_2P5_CAP"
+		(shape input)
+		(at 144.78 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3856844-9161-4460-bfa3-fc9f8cc994ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.8248 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCDC_3V3"
+		(shape input)
+		(at 57.15 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6e139fb-0031-4b86-ab6e-cdde8cbb742c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.6904 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OTG1_DN"
+		(shape input)
+		(at 171.45 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3b9d917-e920-4069-8487-1cf43f5ee780")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.7809 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_SNVS_IN"
+		(shape input)
+		(at 215.9 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4855b44-9459-463e-ada7-046f30f5c21b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.2224 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCDC_3V3"
+		(shape input)
 		(at 237.49 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f4fb8c70-2923-4822-b3f9-375a0a094e76")
+		(uuid "d2b0a9c8-7b17-48f8-9993-ed647ae5873a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.0304 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "DM_FB"
-		(at 123.19 104.14 0)
+	(global_label "OTG1_DP"
+		(shape input)
+		(at 171.45 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f92128c5-7fe1-4a9f-be57-47cab31eee5c")
+		(uuid "d4839ba8-1850-4494-acd8-43a2f4785f9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.7204 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "VDD_SNVS_3V3"
-		(at 255.27 118.11 180)
+	(global_label "VLDO_3V3"
+		(shape input)
+		(at 57.15 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "f9fd5d12-7c52-4088-a3c1-6bc3bc9986b0")
+		(uuid "dabd1aee-9934-4e79-8e9d-7cfecc8a1417")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.3276 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCDC_3V3"
+		(shape input)
+		(at 180.34 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd8bb605-3510-4afd-b400-5cd18f961700")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.8804 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P3V3_SDA"
+		(shape input)
+		(at 57.15 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4e494ed-3cf1-4ac8-9d64-e97934f7387b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.4485 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_USB_OTG"
+		(shape input)
+		(at 57.15 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6bfb5bc-08d3-481e-a706-91fc5097c836")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.5534 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_HIGH_IN_3V3"
+		(shape input)
+		(at 177.8 118.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fabce6f1-7070-44b4-a128-d7891ea8cc93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 137.6053 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCDC_PSWITCH_MCU"
+		(shape input)
+		(at 222.25 88.9 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc8ea0aa-5ca0-44e2-a7fa-ea49bd4b91ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.25 111.0561 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -8184,7 +8589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 48.26 30.48 0)
 			(effects
 				(font
@@ -10334,7 +10739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 123.19 158.75 0)
 			(effects
 				(font

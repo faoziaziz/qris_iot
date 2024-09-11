@@ -3428,6 +3428,12 @@
 		)
 	)
 	(junction
+		(at 125.73 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03f3c127-9f5e-4a06-8be4-0a18d197fa19")
+	)
+	(junction
 		(at 33.02 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3995,16 +4001,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 109.22) (xy 109.22 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27e33103-f87f-4a39-9618-f5380b17d9af")
-	)
-	(wire
-		(pts
 			(xy 106.68 139.7) (xy 106.68 146.05)
 		)
 		(stroke
@@ -4535,6 +4531,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 107.95) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62151893-100c-4177-9833-a1b52d59d2a5")
+	)
+	(wire
+		(pts
 			(xy 26.67 168.91) (xy 29.21 168.91)
 		)
 		(stroke
@@ -4552,6 +4558,16 @@
 			(type default)
 		)
 		(uuid "660be766-e384-4950-b6d8-4394d77461d9")
+	)
+	(wire
+		(pts
+			(xy 132.08 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66aa766e-5216-4db0-a76d-a828d7151638")
 	)
 	(wire
 		(pts
@@ -4932,6 +4948,16 @@
 			(type default)
 		)
 		(uuid "92afdd4a-3640-497f-9a2a-9804cf1366fa")
+	)
+	(wire
+		(pts
+			(xy 109.22 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9435b984-a645-47bc-b341-74c74e76daa8")
 	)
 	(wire
 		(pts
@@ -5683,61 +5709,6 @@
 		)
 		(uuid "ff9967e8-7518-4b44-bea1-aa7e0ebee3b4")
 	)
-	(label "3.3V_PMIC_OUT"
-		(at 29.21 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01a3a36b-1e2b-4a3e-abdd-17f9056f1035")
-	)
-	(label "3.3V_PMIC_OUT"
-		(at 205.74 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0945c92d-f33c-4679-9699-2c79949ba913")
-	)
-	(label "3.3V_INDICATOR"
-		(at 111.76 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2281ee32-5e4a-4eae-a35e-4cb3594993ce")
-	)
-	(label "5V_INDICATOR"
-		(at 109.22 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29edf4db-7c3f-4d20-bc67-ae760103e15a")
-	)
-	(label "12V_pmic"
-		(at 116.84 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "39e0b02c-fec9-41ee-b20a-0b255935f6dc")
-	)
 	(label "12Vbatt"
 		(at 48.26 34.29 180)
 		(fields_autoplaced yes)
@@ -5748,138 +5719,6 @@
 			(justify right bottom)
 		)
 		(uuid "3fc07e08-9bda-4cc8-818d-0027d1977f25")
-	)
-	(label "PMIC_ON_REQ"
-		(at 167.64 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "42d10bdc-6f01-4963-87a6-5c74d9add742")
-	)
-	(label "3V3_DARI_MCU"
-		(at 207.01 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c7b9f8a-d4bf-49e9-90a5-ba04ecacce89")
-	)
-	(label "12V_pmic"
-		(at 238.76 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ac462c0-1be1-416f-80f4-b6d386c6fde7")
-	)
-	(label "5V_SERVO"
-		(at 208.28 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c25a2f8-293a-40f6-8517-037d3fa9cd43")
-	)
-	(label "PMIC_ON_REQ"
-		(at 172.72 184.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "887546f3-8c0c-475d-92bb-a5d90dce7b9d")
-	)
-	(label "12V_pmic"
-		(at 128.27 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "897a2b57-458b-437c-9092-2e1a68832019")
-	)
-	(label "VCC_BATT"
-		(at 44.45 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8ed47dfa-25a8-4833-a8a0-c6b2d66f59cf")
-	)
-	(label "5V_PMIC_OUT"
-		(at 26.67 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f52877b-25ff-42fb-a33e-4c6416d110ca")
-	)
-	(label "12V_pmic"
-		(at 130.81 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "95f5845e-fabf-4d1f-aab9-11c1e1521745")
-	)
-	(label "VDD_SNVS_3V3"
-		(at 182.88 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9e9c0ff7-0f09-4522-b523-4d75323f73ed")
-	)
-	(label "IN_BATT"
-		(at 171.45 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5ed3c98-b9e7-4749-ad03-e278d8fde216")
-	)
-	(label "INPUT_BATT"
-		(at 133.35 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b45bdec8-cfe5-48fb-af9e-ca5fbd479431")
 	)
 	(label "5V_PMIC_OUT"
 		(at 185.42 129.54 180)
@@ -5903,28 +5742,6 @@
 		)
 		(uuid "bee3c265-73d8-477e-b92a-9373dafd3221")
 	)
-	(label "12V_pmic"
-		(at 101.6 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d579bb4e-4241-4e9d-b1f9-71669a4e9e10")
-	)
-	(label "System_batt"
-		(at 213.36 22.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d78f7ff6-53ec-445e-afc2-92d821f81bf8")
-	)
 	(label "PGND"
 		(at 69.85 72.39 90)
 		(fields_autoplaced yes)
@@ -5935,6 +5752,424 @@
 			(justify left bottom)
 		)
 		(uuid "ef78da6e-eb89-4b43-8900-24a1332f5a82")
+	)
+	(global_label "VCC_BATT"
+		(shape input)
+		(at 44.45 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06b1d676-982e-456b-9af8-726c0a7eefbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.5748 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN_BATT"
+		(shape input)
+		(at 171.45 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18b29b89-8c92-4768-b882-11a377a8635a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.6319 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_pmic"
+		(shape input)
+		(at 238.76 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1dcfd585-16f6-47fb-b9a3-007b79711a4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.7561 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_SNVS_3V3"
+		(shape input)
+		(at 182.88 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28cf1b85-d875-4617-a01f-26753f396a20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.9853 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_SERVO"
+		(shape input)
+		(at 208.28 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f9edc65-8ad9-4112-b1c5-b41e075567ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5785 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INPUT_BATT"
+		(shape input)
+		(at 133.35 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32d3c03e-e70a-4e8d-872f-d7e168be06ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_pmic"
+		(shape input)
+		(at 101.6 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38249a39-34f7-423e-a486-722cc4d9e5e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.6039 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_pmic"
+		(shape input)
+		(at 116.84 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f526449-cc7e-4f2b-a64d-6b9184f580fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.8439 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V_PMIC_OUT"
+		(shape input)
+		(at 205.74 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6427d74f-d5ee-4e76-8be9-ed2e15374e46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.9976 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_PMIC_OUT"
+		(shape input)
+		(at 26.67 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6431b96e-4e4c-4e3b-963c-652664b3832e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.2267 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_pmic"
+		(shape input)
+		(at 130.81 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6974244d-90a0-46f1-8c36-ee638198c1a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.8139 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_DARI_MCU"
+		(shape input)
+		(at 207.01 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e47a461-b4b5-4df7-b455-bec5c24c558b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.7233 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "System_batt"
+		(shape input)
+		(at 213.36 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad40562f-73d1-42c6-876e-8c42643315e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.945 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_INDICATOR"
+		(shape input)
+		(at 109.22 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd6dc76f-c9ab-4c5a-9dd2-76d7698dca2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.2077 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V_INDICATOR"
+		(shape input)
+		(at 132.08 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc2bbe82-c7a0-49f8-8cd6-4b0fddc24d7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.882 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PMIC_ON_REQ"
+		(shape input)
+		(at 167.64 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d14c891d-910f-4550-bd8c-1f83907926c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.7129 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PMIC_ON_REQ"
+		(shape input)
+		(at 172.72 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d81092d6-3040-451f-bea3-ca36919e01ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.7929 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V_PMIC_OUT"
+		(shape input)
+		(at 29.21 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7fe4052-3cbf-48cb-bc11-1ee84b42ac37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.9524 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_pmic"
+		(shape input)
+		(at 128.27 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcdcd0ea-00a1-4dad-9079-1f5063b749bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.2739 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")

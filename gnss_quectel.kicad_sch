@@ -359,82 +359,159 @@
 		)
 		(uuid "fce8886e-9d8f-41b3-8d51-1686609354e2")
 	)
-	(label "LPUART3_RXD_ALT0"
-		(at 71.12 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46b43729-5e35-4291-a6cd-a3fa22a74ea4")
-	)
-	(label "TX_GNSS"
-		(at 110.49 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "490b1ae1-8da3-4073-a0cc-85be62869b8a")
-	)
-	(label "VCC_3V3"
+	(global_label "VCC_3V3"
+		(shape input)
 		(at 104.14 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "7c83bd7e-18d2-473c-8e19-68cc488c661f")
+		(uuid "046c0618-0884-4965-b861-85fdb2d3d740")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.229 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "GND_GNSS"
+	(global_label "GND_GNSS"
+		(shape input)
 		(at 110.49 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "92eefedc-98a4-4019-957f-795bdb9b629c")
+		(uuid "0f9b020a-01cf-4990-a9ef-e0ded71fdf5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.3328 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "VCC_GNSS"
+	(global_label "LPUART3_RXD_ALT0"
+		(shape input)
+		(at 71.12 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6cafc913-1f50-423a-83e4-a70a874e0624")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.248 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX_GNSS"
+		(shape input)
+		(at 110.49 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "767f4450-e75b-4c68-ab65-e2bce8653952")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.6394 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_GNSS"
+		(shape input)
 		(at 110.49 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "cac52eb9-94d1-46d1-94de-dbe51ba9c13b")
+		(uuid "78cf2c36-0878-4f98-9977-687dccacb68b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.0909 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "LPUART3_TXD_ALT0"
+	(global_label "LPUART3_TXD_ALT0"
+		(shape input)
 		(at 71.12 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "cff8b326-c1ea-40ca-b07c-200ff1592d62")
+		(uuid "a61cbf86-00ad-42bc-ae6a-dc0fba3fdf15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.9456 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "RX_GNSS"
+	(global_label "RX_GNSS"
+		(shape input)
 		(at 110.49 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "d7f04fa2-e24e-43b2-b513-3e0042d0c8e9")
+		(uuid "de2853f8-974a-46c0-af05-c0af89bbe699")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.9418 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")

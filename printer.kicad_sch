@@ -404,38 +404,71 @@
 		)
 		(uuid "c0529f01-3789-4957-9df5-6ecc5843c201")
 	)
-	(label "LPUART4_TXD_ALT0"
+	(global_label "LPUART4_TXD_ALT0"
+		(shape input)
 		(at 124.46 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "8c63b9d3-dd27-48fb-9469-c6b943f06671")
+		(uuid "562bceaa-aa9d-464f-b283-0754581113b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.6344 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "LPUART4_RXD_ALT0"
+	(global_label "LPUART4_RXD_ALT0"
+		(shape input)
 		(at 124.46 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "b20fecc1-dcc6-4aad-bd92-4c5b13c93b3c")
+		(uuid "95e16f13-4fd8-4413-b54e-43c94f89435f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.332 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "3V3_UART4"
+	(global_label "3V3_UART4"
+		(shape input)
 		(at 130.81 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "ded1adda-6bac-4f6b-b0fe-8241a105894b")
+		(uuid "99bc06ff-36b9-42ad-89de-f5df2c573dd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.1366 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")

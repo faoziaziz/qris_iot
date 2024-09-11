@@ -2128,137 +2128,269 @@
 		)
 		(uuid "fef48776-aaf0-43fc-ba8d-48b1a319188a")
 	)
-	(label "3V3_DARI_MCU"
-		(at 129.54 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "28b03f29-9468-4dd4-be05-6ad156f3bff2")
-	)
-	(label "5V_SERVO"
-		(at 148.59 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c152b64-492c-45d9-815e-61b95fdfb289")
-	)
-	(label "GREEN_LED"
-		(at 118.11 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "40e4890f-290f-4757-87f8-7006cf0ff7ea")
-	)
-	(label "BLUE_LED"
-		(at 118.11 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49a3a84a-dceb-4008-9140-7fb9d214ebb8")
-	)
-	(label "GPIO_00"
-		(at 96.52 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ecdc7b3-96e4-4ad4-8b0a-49d005461f64")
-	)
-	(label "3V3_DARI_MCU"
+	(global_label "3V3_DARI_MCU"
+		(shape input)
 		(at 171.45 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "71b8428c-c43c-4e6a-b8fa-8f0bfb411efb")
+		(uuid "000c6081-e3be-4677-8df5-05d95e823b66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.1633 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "ONOFF"
-		(at 64.77 55.88 180)
+	(global_label "3V3_DARI_MCU"
+		(shape input)
+		(at 129.54 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "73f86a4d-bd43-4415-944e-05361ae5754e")
-	)
-	(label "PWM_CERVO"
-		(at 161.29 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "031b9340-a2a7-40a7-a8d0-652b34b56d72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.8267 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
 			)
-			(justify right bottom)
 		)
-		(uuid "8ad313ac-85b4-4849-b24f-6e66d5e688b7")
 	)
-	(label "MCU_PWM_CERVO"
-		(at 107.95 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad6bf97c-aefa-4af4-ac22-730203846463")
-	)
-	(label "RED_LED"
+	(global_label "RED_LED"
+		(shape input)
 		(at 118.11 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "b7783486-a49b-4714-b112-a083192a3a6a")
+		(uuid "2a60f072-78d4-429d-aa45-f51ca491e7e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.1989 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "POR_BUTTON"
+	(global_label "GREEN_LED"
+		(shape input)
+		(at 118.11 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51d09f4a-20f9-498b-bdf8-4cc3e8b2b6d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.6784 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ONOFF"
+		(shape input)
+		(at 64.77 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "558f933e-b2d8-444c-b07a-3ec319c181f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.6161 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POR_BUTTON"
+		(shape input)
 		(at 64.77 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "e542c0bd-ec43-4175-a5db-6dabcf99194a")
+		(uuid "5625cbf3-3f34-4a67-bdfd-4112487ee89d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "USER_BUTTON"
+	(global_label "BLUE_LED"
+		(shape input)
+		(at 118.11 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "564052c1-512d-4d60-bcc1-2b33c49a3d3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.2875 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_SERVO"
+		(shape input)
+		(at 148.59 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85951e08-94f0-443d-a98d-6dc5584bebe2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.8885 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM_CERVO"
+		(shape input)
+		(at 161.29 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aba24978-1501-45c2-b7e2-9f51993f7604")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.0563 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_00"
+		(shape input)
+		(at 96.52 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb169f29-b67e-406d-88a3-c7afdb04d743")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.6729 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_PWM_CERVO"
+		(shape input)
+		(at 107.95 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e44785a6-0a45-407e-8555-50b2481c096c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.2032 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USER_BUTTON"
+		(shape input)
 		(at 104.14 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "ec941c51-7d9e-47ea-bb9c-12524dbd4467")
+		(uuid "e86ef9ec-f26e-4fea-a9a7-fa9412adfb0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.0315 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
