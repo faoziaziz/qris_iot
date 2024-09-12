@@ -2522,6 +2522,12 @@
 		(uuid "a40d4072-53a7-4a51-b616-6cff77910522")
 	)
 	(junction
+		(at 38.1 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6ff3044-e796-4ec2-8595-adbdb20f7a7d")
+	)
+	(junction
 		(at 231.14 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2861,6 +2867,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 172.72) (xy 38.1 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9ae959-e27e-486f-9558-82650c521e25")
+	)
+	(wire
+		(pts
 			(xy 83.82 81.28) (xy 99.06 81.28)
 		)
 		(stroke
@@ -2871,7 +2887,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 118.11) (xy 185.42 118.11)
+			(xy 167.64 118.11) (xy 185.42 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3451,6 +3467,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 172.72) (xy 57.15 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69acdbce-76f4-4fe6-b80e-c54fb69cffdb")
+	)
+	(wire
+		(pts
 			(xy 158.75 74.93) (xy 163.83 74.93)
 		)
 		(stroke
@@ -3981,7 +4007,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 167.64) (xy 38.1 175.26)
+			(xy 38.1 167.64) (xy 38.1 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4308,6 +4334,16 @@
 			(type default)
 		)
 		(uuid "d4c4a06c-5f9b-4791-a7e8-4b50d2db5665")
+	)
+	(wire
+		(pts
+			(xy 38.1 172.72) (xy 38.1 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d51d361f-62ab-4bca-9bf1-9739bedcda3b")
 	)
 	(wire
 		(pts
@@ -4660,17 +4696,6 @@
 			)
 		)
 		(uuid "f41dc4ee-8fc8-44d9-b06a-24aba6e974f9")
-	)
-	(label "VDD_HIGH_IN_MCU"
-		(at 177.8 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8bbb7074-2722-4bd6-ae38-09c36f4e6dc8")
 	)
 	(global_label "VDD_HIGH_IN_3V3"
 		(shape input)
@@ -5112,6 +5137,50 @@
 			)
 		)
 	)
+	(global_label "VDD_HIGH_IN_MCU"
+		(shape input)
+		(at 167.64 118.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8856f78c-6a65-40d2-a3fd-83bc96e8a1f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 138.1496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FC41D_3V3"
+		(shape input)
+		(at 57.15 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99bf7880-22d2-4bd6-9af9-06166d3e2b50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.658 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_DCDC_IN_3V3"
 		(shape input)
 		(at 210.82 59.69 270)
@@ -5400,7 +5469,7 @@
 	)
 	(global_label "VDD_HIGH_IN_3V3"
 		(shape input)
-		(at 177.8 118.11 270)
+		(at 172.72 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5410,7 +5479,7 @@
 		)
 		(uuid "fabce6f1-7070-44b4-a128-d7891ea8cc93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8 137.6053 90)
+			(at 172.72 137.6053 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,6 +7688,82 @@
 			(project ""
 				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2/0c446b05-2ff4-4319-859d-c1e217bf307a"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 43.18 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f166476-1429-49f4-bdff-149f6f54a813")
+		(property "Reference" "R77"
+			(at 44.196 170.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 39.878 171.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.434 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 43.18 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 43.18 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6436902f-63bb-4bc6-8888-25ca7af8da56")
+		)
+		(pin "1"
+			(uuid "22e8c012-198a-48e1-b235-ebf4662d5bc0")
+		)
+		(instances
+			(project "qris_iot"
+				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2/0c446b05-2ff4-4319-859d-c1e217bf307a"
+					(reference "R77")
 					(unit 1)
 				)
 			)
