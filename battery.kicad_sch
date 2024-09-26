@@ -165,6 +165,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers hide)
 			(pin_names
@@ -1913,18 +2015,6 @@
 		(uuid "0182de5c-225c-4228-b47a-a8efa97c5441")
 	)
 	(junction
-		(at 170.18 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "050c5d9e-2138-47d4-951e-7fd773d5c613")
-	)
-	(junction
-		(at 163.83 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0591efac-10ef-4609-b8fe-642543baecfd")
-	)
-	(junction
 		(at 153.67 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1943,10 +2033,22 @@
 		(uuid "129f7755-6e8e-42ce-a5c6-983dd5ee8839")
 	)
 	(junction
-		(at 162.56 93.98)
+		(at 58.42 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "243e9176-c1e4-4bab-b396-fc880f65a406")
+		(uuid "21d46a95-bc81-473e-bd8b-c5b7d4b10b91")
+	)
+	(junction
+		(at 203.2 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24d42a7b-d66c-47d5-b527-2bc43a4b5fef")
+	)
+	(junction
+		(at 97.79 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "274f37e1-72ee-49a8-81f0-c3c1035d8f71")
 	)
 	(junction
 		(at 175.26 63.5)
@@ -1955,28 +2057,22 @@
 		(uuid "27b52c11-958e-4a86-a04e-c591ee796d2c")
 	)
 	(junction
+		(at 116.84 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "288d7530-6a4a-4c8e-a51c-7771b7114e40")
+	)
+	(junction
 		(at 55.88 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a7f9021-b69a-40fa-9779-18fcebd9e462")
 	)
 	(junction
-		(at 171.45 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ce9f9d4-696c-44ce-a8af-f8ce6e54e1cb")
-	)
-	(junction
 		(at 175.26 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2da7bd04-33de-4a48-be8d-e7648ce66bad")
-	)
-	(junction
-		(at 170.18 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "444b2049-cb9e-4005-a991-2e49ad3f1e3f")
 	)
 	(junction
 		(at 30.48 45.72)
@@ -2045,6 +2141,12 @@
 		(uuid "a291aec9-6f1f-479d-b4b4-f70cff1c170d")
 	)
 	(junction
+		(at 175.26 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a739aebd-710a-4e26-a387-38d22f4b9057")
+	)
+	(junction
 		(at 101.6 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2055,38 +2157,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd10e3a3-b754-4e0b-acfd-a5309faaba79")
-	)
-	(junction
-		(at 162.56 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de13143d-1802-4cd7-b872-efbd91271880")
-	)
-	(junction
-		(at 118.11 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe9de693-d2ac-4bfa-8e18-9d77e899c8c2")
-	)
-	(wire
-		(pts
-			(xy 109.22 72.39) (xy 109.22 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0106ca36-f170-4b9d-aabd-05a9731c6ed3")
-	)
-	(wire
-		(pts
-			(xy 170.18 93.98) (xy 162.56 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0329ce4e-83e9-424c-9c78-9e5d0812b4b8")
 	)
 	(wire
 		(pts
@@ -2120,6 +2190,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 54.61) (xy 116.84 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c61082d-993e-4ed2-af35-9451cd686824")
+	)
+	(wire
+		(pts
 			(xy 49.53 86.36) (xy 55.88 86.36)
 		)
 		(stroke
@@ -2147,6 +2227,16 @@
 			(type default)
 		)
 		(uuid "142db14a-9b7f-4086-960c-130b3ad8c257")
+	)
+	(wire
+		(pts
+			(xy 109.22 44.45) (xy 109.22 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224d4083-f33e-4ac8-b2f9-4535f410bb6c")
 	)
 	(wire
 		(pts
@@ -2200,6 +2290,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 33.02) (xy 58.42 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef203f3-981a-465c-86fa-437794be0b73")
+	)
+	(wire
+		(pts
 			(xy 175.26 46.99) (xy 175.26 63.5)
 		)
 		(stroke
@@ -2207,16 +2307,6 @@
 			(type default)
 		)
 		(uuid "2f38ad12-a2a3-47eb-8446-19acb8d91be1")
-	)
-	(wire
-		(pts
-			(xy 171.45 82.55) (xy 163.83 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3126cfc2-ec19-4a6b-aaf0-20dfecfffed5")
 	)
 	(wire
 		(pts
@@ -2237,6 +2327,26 @@
 			(type default)
 		)
 		(uuid "32a02655-0341-4136-a673-194ee8e6b861")
+	)
+	(wire
+		(pts
+			(xy 116.84 54.61) (xy 116.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3366126a-0ca6-4f7c-94e0-b3e064ae23e9")
+	)
+	(wire
+		(pts
+			(xy 81.28 52.07) (xy 97.79 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3898d480-1f3f-45e3-b48c-42dcae78ee29")
 	)
 	(wire
 		(pts
@@ -2270,13 +2380,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 63.5) (xy 116.84 53.34)
+			(xy 203.2 67.31) (xy 175.26 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48780c42-afa6-42e7-90ac-576af3480c71")
+		(uuid "443430fe-d50d-4f8f-96ef-4e3750f9181e")
 	)
 	(wire
 		(pts
@@ -2330,16 +2440,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 33.02) (xy 175.26 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52d7108d-2e32-4c10-b6b7-856a3c726294")
-	)
-	(wire
-		(pts
 			(xy 83.82 33.02) (xy 99.06 33.02)
 		)
 		(stroke
@@ -2350,13 +2450,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 104.14) (xy 162.56 104.14)
+			(xy 58.42 33.02) (xy 30.48 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "571129fd-defc-4c0c-aa17-016cc94e4149")
+		(uuid "5b7040a8-8bff-4276-8335-5f8ce2f8ee9e")
 	)
 	(wire
 		(pts
@@ -2367,6 +2467,16 @@
 			(type default)
 		)
 		(uuid "5d0df4d4-175a-4cef-a91c-3ec9be55b8a5")
+	)
+	(wire
+		(pts
+			(xy 201.93 77.47) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605cfab7-d50e-41bf-abdf-264750deee42")
 	)
 	(wire
 		(pts
@@ -2390,7 +2500,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 63.5) (xy 175.26 72.39)
+			(xy 175.26 63.5) (xy 175.26 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2407,6 +2517,16 @@
 			(type default)
 		)
 		(uuid "63722c00-16b3-4fc9-9f97-37b0dd31327d")
+	)
+	(wire
+		(pts
+			(xy 116.84 53.34) (xy 116.84 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6529e61a-1268-455d-95ae-10d6886e071f")
 	)
 	(wire
 		(pts
@@ -2500,6 +2620,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 52.07) (xy 97.79 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3a3f97-789e-4f55-983b-603d14ee499a")
+	)
+	(wire
+		(pts
 			(xy 175.26 102.87) (xy 175.26 104.14)
 		)
 		(stroke
@@ -2507,6 +2637,16 @@
 			(type default)
 		)
 		(uuid "82853fdd-092d-4400-aa38-44962dee702c")
+	)
+	(wire
+		(pts
+			(xy 113.03 66.04) (xy 113.03 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83812e45-b077-4048-b03b-bc0f0dfc48d1")
 	)
 	(wire
 		(pts
@@ -2530,13 +2670,33 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 33.02) (xy 30.48 33.02)
+			(xy 30.48 45.72) (xy 30.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87cabb84-e201-4b82-bcd7-75067e84689b")
+	)
+	(wire
+		(pts
+			(xy 73.66 33.02) (xy 58.42 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "88b2df06-ebb6-467b-8e5b-23a123dd7381")
+	)
+	(wire
+		(pts
+			(xy 58.42 16.51) (xy 175.26 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e54de84-8c12-41aa-959a-a4a494737742")
 	)
 	(wire
 		(pts
@@ -2710,6 +2870,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 58.42) (xy 113.03 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5110eb5-39d6-4e7a-a47a-50a1eb6d36f1")
+	)
+	(wire
+		(pts
 			(xy 97.79 63.5) (xy 97.79 72.39)
 		)
 		(stroke
@@ -2717,26 +2887,6 @@
 			(type default)
 		)
 		(uuid "a5d6c7e6-4d12-4e2e-98a1-18efb2965e41")
-	)
-	(wire
-		(pts
-			(xy 30.48 45.72) (xy 30.48 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7078f07-59eb-4544-ad25-0a022eb37e5b")
-	)
-	(wire
-		(pts
-			(xy 175.26 33.02) (xy 175.26 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac178dfd-8a35-4463-a600-8ab680d41b35")
 	)
 	(wire
 		(pts
@@ -2760,13 +2910,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 72.39) (xy 105.41 72.39)
+			(xy 203.2 77.47) (xy 203.2 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b25668d5-ce01-4c66-8bee-f24fa48bc989")
+		(uuid "b235db60-2a78-4d08-a5f8-f7c699be7b55")
 	)
 	(wire
 		(pts
@@ -2777,6 +2927,16 @@
 			(type default)
 		)
 		(uuid "b323c0c8-0dca-4222-bb2a-db0159fb6df4")
+	)
+	(wire
+		(pts
+			(xy 175.26 16.51) (xy 175.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46024bc-ce7a-4be7-ae1d-cd0c3f329133")
 	)
 	(wire
 		(pts
@@ -2850,6 +3010,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 74.93) (xy 203.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c471e99a-fbf5-4008-a35b-c0cb9086de20")
+	)
+	(wire
+		(pts
 			(xy 53.34 121.92) (xy 62.23 121.92)
 		)
 		(stroke
@@ -2867,6 +3037,16 @@
 			(type default)
 		)
 		(uuid "c715f13b-7590-4500-a672-66b7997e38b2")
+	)
+	(wire
+		(pts
+			(xy 105.41 40.64) (xy 104.14 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77fcaeb-4f38-45b2-8ca4-c354463397e5")
 	)
 	(wire
 		(pts
@@ -2917,6 +3097,16 @@
 			(type default)
 		)
 		(uuid "d74ecf9c-6581-4c06-9387-4edb5d634b11")
+	)
+	(wire
+		(pts
+			(xy 175.26 67.31) (xy 175.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b577fc-a706-44c4-8e22-d931152095aa")
 	)
 	(wire
 		(pts
@@ -3000,6 +3190,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 74.93) (xy 201.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef03a695-c747-46ea-b1fd-43bdd03cbfd5")
+	)
+	(wire
+		(pts
 			(xy 153.67 104.14) (xy 153.67 105.41)
 		)
 		(stroke
@@ -3030,7 +3230,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 40.64) (xy 104.14 72.39)
+			(xy 105.41 40.64) (xy 105.41 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3320,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 55.88) (xy 97.79 49.53)
+			(xy 97.79 55.88) (xy 97.79 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3138,20 +3338,28 @@
 		)
 		(uuid "fd72758f-234a-47cf-90b9-ff4bd8f337fd")
 	)
-	(label "alrt"
-		(at 50.8 81.28 0)
-		(fields_autoplaced yes)
+	(text_box "Disini IS kalau mau nambahin jack connector buat charger"
+		(exclude_from_sim no)
+		(at 16.51 24.13 0)
+		(size 52.07 20.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
-		(uuid "8add5d63-2186-46ff-a094-21bf319374d1")
+		(uuid "b28a9845-1924-49de-9939-493ecc16f92d")
 	)
 	(global_label "LPI2C2_SCL"
 		(shape input)
-		(at 16.51 86.36 0)
+		(at 16.51 86.36 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3161,7 +3369,7 @@
 		)
 		(uuid "1ab78d5f-745d-4a68-bda8-906e072e8fcc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.5623 86.36 0)
+			(at 16.51 72.3077 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3381,29 @@
 	)
 	(global_label "LPI2C2_SDA"
 		(shape input)
-		(at 16.51 91.44 0)
+		(at 16.51 91.44 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac2cc8c9-d06b-4955-86d6-6480e2552062")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.51 105.5528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "System_batt"
+		(shape input)
+		(at 196.85 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3181,9 +3411,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ac2cc8c9-d06b-4955-86d6-6480e2552062")
+		(uuid "cda7227e-3fe6-4ac7-883d-b3ee7e870f64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.6228 91.44 0)
+			(at 211.265 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,24 +3423,24 @@
 			)
 		)
 	)
-	(global_label "System_batt"
+	(global_label "alrt"
 		(shape input)
-		(at 196.85 46.99 180)
+		(at 50.8 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "cda7227e-3fe6-4ac7-883d-b3ee7e870f64")
+		(uuid "fcf3605d-73e0-461e-beaf-db25064c6d72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.435 46.99 0)
+			(at 50.8 74.9687 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3372,6 +3602,174 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:QM6006D")
+		(at 78.74 35.56 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11d60a32-3c5f-4225-a6e2-8755b5873172")
+		(property "Reference" "Q5"
+			(at 78.74 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QM6006D"
+			(at 78.74 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 76.835 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.jaolen.com/images/pdf/QM6006D.pdf"
+			(at 74.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252"
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10027533-a30c-40d4-938b-4d83d0dcfb65")
+		)
+		(pin "1"
+			(uuid "c3a2e9dc-4f10-414a-aed6-5248dbe70a17")
+		)
+		(pin "3"
+			(uuid "f59e68b0-eec8-44b2-a48e-1e78ed0dabf7")
+		)
+		(instances
+			(project "qris_iot"
+				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2/58579155-fb6f-4e8f-815b-ef29eb609da0"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:QM6006D")
+		(at 55.88 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1877bcab-f952-47d9-8f1a-f95ff9baf188")
+		(property "Reference" "Q3"
+			(at 49.53 113.0301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "QM6006D"
+			(at 49.53 110.4901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 50.8 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.jaolen.com/images/pdf/QM6006D.pdf"
+			(at 50.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252"
+			(at 55.88 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 55.88 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6bc98c0-c498-4025-b4a7-1cbb857cd95f")
+		)
+		(pin "1"
+			(uuid "fa1d26f0-975f-4e28-8aba-f3f1dd6efcee")
+		)
+		(pin "3"
+			(uuid "40b09b42-679b-4c27-8569-bffc8b61b3da")
+		)
+		(instances
+			(project "qris_iot"
+				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2/58579155-fb6f-4e8f-815b-ef29eb609da0"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 114.3 138.43 0)
 		(unit 1)
@@ -3438,89 +3836,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:QM6006D")
-		(at 78.74 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cb8bf7a-66ff-45e4-9fe1-d4fa63238798")
-		(property "Reference" "Q5"
-			(at 78.74 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "QM6006D"
-			(at 78.74 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 80.645 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.jaolen.com/images/pdf/QM6006D.pdf"
-			(at 82.55 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252"
-			(at 78.74 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyPartNumber" ""
-			(at 78.74 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d6e372d-dec0-4044-863f-b5e3164b9807")
-		)
-		(pin "1"
-			(uuid "3c8eb5da-3b11-4de3-9658-af06bce6c1fc")
-		)
-		(pin "3"
-			(uuid "07d59036-3bcd-44b7-9803-d8a8e76e3022")
-		)
-		(instances
-			(project "qris_iot"
-				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2/58579155-fb6f-4e8f-815b-ef29eb609da0"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 167.64 72.39 90)
 		(unit 1)
@@ -3538,7 +3853,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10"
 			(at 167.64 68.58 90)
 			(effects
 				(font
@@ -4041,6 +4356,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 196.85 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5afa3e1c-2025-4ec9-9481-c06aa9e233b5")
+		(property "Reference" "J7"
+			(at 197.485 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 198.374 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d42e2f99-9721-477b-94df-cea51bd2d1fb")
+		)
+		(pin "1"
+			(uuid "4953c158-0bd6-475d-ac84-b16e755feb6c")
+		)
+		(instances
+			(project "qris_iot"
+				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2/58579155-fb6f-4e8f-815b-ef29eb609da0"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 166.37 93.98 90)
 		(unit 1)
@@ -4048,18 +4439,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "62a70a90-3174-4c11-8a8f-9e6f65857598")
 		(property "Reference" "R66"
-			(at 166.37 87.63 90)
+			(at 166.624 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 166.37 90.17 90)
+		(property "Value" "50"
+			(at 166.624 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,6 +5038,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 113.03 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a8b822f-3e3a-4a66-9680-ae02078c3409")
+		(property "Reference" "C6"
+			(at 116.84 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1UF"
+			(at 116.84 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 112.0648 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPartNumber" ""
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CC0402KRX5R6BB104"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86d6e95b-c87b-4263-93ce-0c1e5d1af3e4")
+		)
+		(pin "2"
+			(uuid "2d8ac5bd-a004-4ae1-bf7e-862629e47712")
+		)
+		(instances
+			(project "qris_iot"
+				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2/58579155-fb6f-4e8f-815b-ef29eb609da0"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 175.26 77.47 0)
 		(unit 1)
@@ -4886,6 +5364,71 @@
 			(project ""
 				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2/58579155-fb6f-4e8f-815b-ef29eb609da0"
 					(reference "BT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "902fa4d8-0994-4bb8-8d3c-f91434ed8f85")
+		(property "Reference" "TP13"
+			(at 77.978 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BuatNgecharge"
+			(at 77.978 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22098c19-6a92-4a18-9459-a770019f00d5")
+		)
+		(instances
+			(project "qris_iot"
+				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2/58579155-fb6f-4e8f-815b-ef29eb609da0"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -5221,91 +5764,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:QM6006D")
-		(at 55.88 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8bb54c4-5b9b-45b4-a6d2-73b93d9e680a")
-		(property "Reference" "Q3"
-			(at 49.53 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "QM6006D"
-			(at 49.53 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 50.8 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.jaolen.com/images/pdf/QM6006D.pdf"
-			(at 50.8 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252"
-			(at 55.88 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyPartNumber" ""
-			(at 55.88 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4f66eb84-8894-4c23-adae-7f1d1a28fd21")
-		)
-		(pin "1"
-			(uuid "7f2a9867-7026-4a0d-ae08-ce1388942ee1")
-		)
-		(pin "3"
-			(uuid "9a11e0d2-36f6-4ddb-a0cb-86f8ae029cbb")
-		)
-		(instances
-			(project ""
-				(path "/7e5ed2de-adc7-481a-a10e-7326381f5ab2/58579155-fb6f-4e8f-815b-ef29eb609da0"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 167.64 82.55 90)
 		(unit 1)
@@ -5323,7 +5781,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "50"
 			(at 167.64 78.74 90)
 			(effects
 				(font
@@ -5400,7 +5858,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "50"
 			(at 166.37 100.33 90)
 			(effects
 				(font
